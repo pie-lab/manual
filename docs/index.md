@@ -7,13 +7,14 @@ documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-cover-image: "PIElab5.png"
+cover-image: "images/PIElab5.png"
 github-repo: pie-lab/manual
 url: 'https\://pielab-science.com'
 description: "Resources, standard operating procedures, tips, tricks, rules"
 
 ---
 
-# Preface {-}
+#  {-}
 
+![](images/PIElab5.png)
 
