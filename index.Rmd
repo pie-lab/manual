@@ -16,4 +16,4 @@ description: "Resources, standard operating procedures, tips, tricks, rules"
 
 # Preface {-}
 
-This is the very first part of the book.
+
