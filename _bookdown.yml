@@ -1,0 +1,6 @@
+book_filename: "pielab-manual"
+chapter_name: "Chapter "
+repo: https://github.com/pie-lab/manual
+output_dir: docs
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
