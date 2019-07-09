@@ -31,6 +31,6 @@ For the number of hours, a good practice is to use the lesser of the max amount 
 
 Once you have begun the session (i.e., submitted the form), a new page will load. From here, click the blue button that says 'Launch noVNC in New Tab'. This button may not be visibe right away as you sit in the queue, waiting for the necessary resources to become available. When you launch the tab, a virtual desktop will launch with a dropdown menu in the upper left called 'Applications'. Choose 'Education'/'Talapas RStudio'. Presumably you can figure out how to manage your workflow from here.
 
-### Ending you interactive session
+### Ending your interactive session
 
 Your analyses will continue running until completed, timed-out, or stopped for some other reason (coding errors, etc.). When your analyses are done, you should return to the Open OnDemand main page and click the red 'Delete' button. This will stop your usage of the system and associated fees.
