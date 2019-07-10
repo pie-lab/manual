@@ -4,7 +4,7 @@ Talapas is the high performance computing cluster managed by Research Advanced C
 
 In this document, the numbered sections below will deal with separate tasks that users in the lab might want to perform on Talapas. If you learn how to do something that is not documented below, please add it to the list, even if you are unsure that others will find it useful. Or, just point to the documentation available online.
 
-## Using Open OnDemand Interactive Access
+## 1. Using Open OnDemand Interactive Access
 
 The RACS team recommends using an incognito tab in Chrome or Firefox before logging in to Talapas (Safari will not work), as this may help to limit the potential for someone to misuse your credentials. Bear in mind that computing services can be costly so there is more at risk than your personal info (and data).
 
@@ -25,7 +25,46 @@ From the OnDemand landing page, click 'Interactive Apps'/'Talapas Desktop'. This
 
 For the number of hours, a good practice is to use the lesser of the max amount of time (this depends on the partition) or a generous guess at the length of time needed. If the analysis runs for a long while and the times out, you will have no output and will have spent the funds anyway. Better to have a chance of getting what you need than running out of time. However, you should also get into the practice of deleting instances that are no longer in use, as this will save money! Otherwise, the expenses will add up until the full time allotment has expired. For the number of cores and total memory, the standard seems to be 4G of memory for each CPU --- choose the CPUs accordingly (as best you can).
 
-**An open question at the moment is how to determine the amount of memory used for a past/current job, as this would help for subsequent estimates of how much memory to request.** I think the answer to this is to query the job number through the ssh/terminal window but, I'm not going to get into those details until I've figured them out...
+### To determine the memory usage of jobs previously run
+
+This has to be done through an ssh interface with Talapas. Open a shell and enter this at the prompt:
+
+```{ssh in}
+ssh username@talapas-ln1.uoregon.edu
+```
+followed by your password.
+
+To see the memory usage of recent jobs, enter:
+
+```{summary info}
+sacct --format='JobID,Elapsed,MaxRSS'
+```
+
+To get more information on an individual job (recommended), enter:
+
+```{info by job}
+seff <JobID>
+```
+
+That last command will return something like:
+
+```{seff output}
+$ seff 9609990
+
+Job ID: 9609990
+Cluster: mycluster
+User/Group: username/talapas
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:23:25
+CPU Efficiency: 3.10% of 12:36:16 core-walltime
+Job Wall-clock time: 01:34:32
+Memory Utilized: 29.12 GB
+Memory Efficiency: 91.00% of 32.00 GB
+```
+
+This job was cancelled after repeated efforts to compile. Note the high ratio of Memory Utilized to Memory Available.
 
 ### To run a live session of RStudio
 
