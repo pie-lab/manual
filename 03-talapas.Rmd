@@ -4,7 +4,7 @@ Talapas is the high performance computing cluster managed by Research Advanced C
 
 In this document, the numbered sections below will deal with separate tasks that users in the lab might want to perform on Talapas. If you learn how to do something that is not documented below, please add it to the list, even if you are unsure that others will find it useful. Or, just point to the documentation available online.
 
-## 1. Using Open OnDemand Interactive Access
+## Using Open OnDemand Interactive Access
 
 The RACS team recommends using an incognito tab in Chrome or Firefox before logging in to Talapas (Safari will not work), as this may help to limit the potential for someone to misuse your credentials. Bear in mind that computing services can be costly so there is more at risk than your personal info (and data).
 
@@ -73,3 +73,8 @@ Once you have begun the session (i.e., submitted the form), a new page will load
 ### Ending your interactive session
 
 Your analyses will continue running until completed, timed-out, or stopped for some other reason (coding errors, etc.). When your analyses are done, you should return to the Open OnDemand main page and click the red 'Delete' button. This will stop your usage of the system and associated fees.
+
+## Using Talapas for Batch Jobs
+
+Haven't done this yet! But see [here](https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/7286491/How-to+Submit+a+Job) if you want to give it a go.
+
