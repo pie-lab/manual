@@ -10,7 +10,7 @@ Click on [this link](https://www.citiprogram.org/Shibboleth.sso/Login?target=htt
 
 *If you're a new user* log in using your DuckID and follow the instructions to create an account. 
 
-### Required Courses
+### Required courses
 
 *Everyone* 
  - Protection of Human Research Subjects
