@@ -24,7 +24,7 @@
 <meta name="author" content="The PIE lab" />
 
 
-<meta name="date" content="2019-07-10" />
+<meta name="date" content="2019-07-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -128,7 +128,7 @@
 <div id="to-launch-an-interactive-session" class="section level3">
 <h3><span class="header-section-number">3.1.2</span> To launch an interactive session</h3>
 <p>From the OnDemand landing page, click ‘Interactive Apps’/‘Talapas Desktop’. This will load a form that requires entry of the PIRG name (pielab) and a few other fields. There are several things to keep in mind when filling out the form to launch the virtual desktop on Talapas. First, the ‘partition’ field requires selection of one of several options. For a complete list, with associated specs, limitations, and restrictions, see <a href="https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/7285967/Partition+List">here</a>. For many (most?) jobs, the default ‘interactive’ partition should be fine. For more intense jobs, consider using ‘short’ (gives up to 24 hours) or ‘long’ (up to 2 weeks). Note that ‘interactive’ has a max of 4 CPUs, which equates to about 16G RAM. For reference, my souped up laptop has 32G and a standard MacBook Pro has 16G or maybe 8G if older. Analyses of SAPA data from 2017 or later will routinely kill RStudio with only 16G of RAM (necessitating use of the ‘short’ or ‘long’ partitions).</p>
-<p>For the number of hours, a good practice is to use the lesser of the max amount of time (this depends on the partition) or a generous guess at the length of time needed. If the analysis runs for a long while and the times out, you will have no output and will have spent the funds anyway. Better to have a chance of getting what you need than running out of time. However, you should also get into the practice of deleting instances that are no longer in use, as this will save money! Otherwise, the expenses will add up until the full time allotment has expired. For the number of cores and total memory, the standard seems to be 4G of memory for each CPU — choose the CPUs accordingly (as best you can).</p>
+<p>For the number of hours, a good practice is to use the lesser of the max amount of time (this depends on the partition) or a generous guess at the length of time needed. If the analysis runs for a long while and the times out, you will have no output and will have spent the funds anyway. Better to have a chance of getting what you need than running out of time. However, you should also get into the practice of deleting instances that are no longer in use, as this will save money! Otherwise, the expenses will add up until the full time allotment has expired. For the number of cores and total memory, the standard seems to be 4G of memory for each CPU — choose the CPUs accordingly (as best you can). Note however that you can also use GPUs, which seem to have more memory. See <a href="https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/364773381/Memory">here</a> for more info about guessing the right specifications. (For SAPA processing, I have been experimenting with 1 GPU, 160 GB, 18 cores, on the short partition for 16 hours, but this is much larger than is probably needed for most things).</p>
 </div>
 <div id="to-determine-the-memory-usage-of-jobs-previously-run" class="section level3">
 <h3><span class="header-section-number">3.1.3</span> To determine the memory usage of jobs previously run</h3>
