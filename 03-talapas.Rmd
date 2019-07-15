@@ -23,7 +23,9 @@ Once you have logged in, it's fairly intuitive to navigate the the dropdown menu
 
 From the OnDemand landing page, click 'Interactive Apps'/'Talapas Desktop'. This will load a form that requires entry of the PIRG name (pielab) and a few other fields. There are several things to keep in mind when filling out the form to launch the virtual desktop on Talapas. First, the 'partition' field requires selection of one of several options. For a complete list, with associated specs, limitations, and restrictions, see [here](https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/7285967/Partition+List). For many (most?) jobs, the default 'interactive' partition should be fine. For more intense jobs, consider using 'short' (gives up to 24 hours) or 'long' (up to 2 weeks). Note that 'interactive' has a max of 4 CPUs, which equates to about 16G RAM. For reference, my souped up laptop has 32G and a standard MacBook Pro has 16G or maybe 8G if older. Analyses of SAPA data from 2017 or later will routinely kill RStudio with only 16G of RAM (necessitating use of the 'short' or 'long' partitions).
 
-For the number of hours, a good practice is to use the lesser of the max amount of time (this depends on the partition) or a generous guess at the length of time needed. If the analysis runs for a long while and the times out, you will have no output and will have spent the funds anyway. Better to have a chance of getting what you need than running out of time. However, you should also get into the practice of deleting instances that are no longer in use, as this will save money! Otherwise, the expenses will add up until the full time allotment has expired. For the number of cores and total memory, the standard seems to be 4G of memory for each CPU --- choose the CPUs accordingly (as best you can). Note however that you can also use GPUs, which seem to have more memory. See [here](https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/364773381/Memory) for more info about guessing the right specifications. (For SAPA processing, I have been experimenting with 1 GPU, 160 GB, 18 cores, on the short partition for 16 hours, but this is much larger than is probably needed for most things).
+For the number of hours, a good practice is to use the lesser of the max amount of time (this depends on the partition) or a generous guess at the length of time needed. If the analysis runs for a long while and the times out, you will have no output and will have spent the funds anyway. Better to have a chance of getting what you need than running out of time. However, you should also get into the practice of deleting instances that are no longer in use, as this will save money! Otherwise, the expenses will add up until the full time allotment has expired. For the number of cores and total memory, the standard seems to be 4G of memory for each CPU --- choose the CPUs accordingly (as best you can). Note however that you can also use GPUs, which seem to have more memory. See [here](https://hpcrcf.atlassian.net/wiki/spaces/TCP/pages/364773381/Memory) for more info about guessing the right specifications. 
+
+For SAPA processing, I have done lots of experimenting. Unfortunately, most of the analyses conducted on these data are not able to be parallelized. This means the marginal benefit of invoking additional cores is often small (but not zero). This set-up seems to work pretty well: 0 GPU, 192 GB, 14 cores, on the short partition for 24 hours. If you seek to use more than 128 GB (as above), your request will end up being completed on either the GPU partition (which has 256 GB per node) or the fat partition (which has something even larger). But, for now anyway, the charges are based on the name of the partition specified. If you're in a rush, you could specify 'short,gpu,fat' in the partition section of the form. This means it will run your job on the first available node, giving priority as listed. As of July 2019, the gpu partition costs twice as much as the short partition ($0.008 per SU) and the fat partition costs 6x as much. 
 
 ### To determine the memory usage of jobs previously run
 
@@ -34,7 +36,7 @@ ssh username@talapas-ln1.uoregon.edu
 ```
 followed by your password.
 
-To see the memory usage of recent jobs, enter:
+To see the memory usage of recent jobs (since midnight of the current day), enter:
 
 ```{summary info}
 sacct --format='JobID,Elapsed,MaxRSS'
@@ -64,7 +66,13 @@ Memory Utilized: 29.12 GB
 Memory Efficiency: 91.00% of 32.00 GB
 ```
 
-This job was cancelled after repeated efforts to compile. Note the high ratio of Memory Utilized to Memory Available.
+This job was cancelled after repeated efforts to compile. Note the high ratio of Memory Utilized to Memory Available. It is also possible to learn much more. Try using the code below by entering your own <username> and a date that goes back a few days in place of <year-mo-da>.
+
+```{more summary info}
+sacct -u <username> -S <year-mo-da> --format='JobID,Partition,State,AllocCPUS,ReqMem,MaxRSS,TimeLimit,Elapsed'
+```
+
+This gives all of the most relevant info (in my opinion) on jobs from the date entered until now, including the final status of the job.
 
 ### To run a live session of RStudio
 
