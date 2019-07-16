@@ -10,3 +10,8 @@
 ### Reference guides
 
 * [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+
+## Writing
+
+* [Dan Simons' writing guide](http://www.dansimons.com/resources/writing_tips.html)
+* [E.J. Wagenmaker's guide](http://www.ejwagenmakers.com/2009/TeachingTipsWriting.pdf)
