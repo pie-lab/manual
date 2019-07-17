@@ -74,6 +74,14 @@ sacct -u <username> -S <year-mo-da> --format='JobID,Partition,State,AllocCPUS,Re
 
 This gives all of the most relevant info (in my opinion) on jobs from the date entered until now, including the final status of the job.
 
+Finally, it is also possible to obtain information about specific files. This is useful if trying to determine how much time was needed to generate an output file. From the terminal, try a command like this:
+
+```{fileinfo}
+ls -l ~/projects/<filename>
+```
+
+This will give the size of the file along with the date and time of creation.
+
 ### To run a live session of RStudio
 
 Once you have begun the session (i.e., submitted the form), a new page will load. From here, click the blue button that says 'Launch noVNC in New Tab'. This button may not be visibe right away as you sit in the queue, waiting for the necessary resources to become available. When you launch the tab, a virtual desktop will launch with a dropdown menu in the upper left called 'Applications'. Choose 'Education'/'Talapas RStudio'. Presumably you can figure out how to manage your workflow from here.

@@ -24,7 +24,7 @@
 <meta name="author" content="The PIE lab" />
 
 
-<meta name="date" content="2019-07-15" />
+<meta name="date" content="2019-07-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -174,6 +174,9 @@ Memory Efficiency: 91.00% of 32.00 GB</code></pre>
 <p>This job was cancelled after repeated efforts to compile. Note the high ratio of Memory Utilized to Memory Available. It is also possible to learn much more. Try using the code below by entering your own <username> and a date that goes back a few days in place of <year-mo-da>.</p>
 <pre class="more"><code>sacct -u &lt;username&gt; -S &lt;year-mo-da&gt; --format=&#39;JobID,Partition,State,AllocCPUS,ReqMem,MaxRSS,TimeLimit,Elapsed&#39;</code></pre>
 <p>This gives all of the most relevant info (in my opinion) on jobs from the date entered until now, including the final status of the job.</p>
+<p>Finally, it is also possible to obtain information about specific files. This is useful if trying to determine how much time was needed to generate an output file. From the terminal, try a command like this:</p>
+<pre class="fileinfo"><code>ls -l ~/projects/&lt;filename&gt;</code></pre>
+<p>This will give the size of the file along with the date and time of creation.</p>
 </div>
 <div id="to-run-a-live-session-of-rstudio" class="section level3">
 <h3><span class="header-section-number">3.1.4</span> To run a live session of RStudio</h3>
