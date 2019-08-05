@@ -1,12 +1,14 @@
-# Website
+# Website and Lab Manual
 
-## Details
+## Website
+
+### Details
 
 URL: [pielab-science.com](https://pielab-science.com)
 
 Username and password: email Sara or David for this information.
 
-## Purpose
+### Purpose
 
 PR for the PIE lab
  - Who's part of the PIE lab
@@ -14,7 +16,7 @@ PR for the PIE lab
  - (If actively recruiting) landing page for new recuirts
  - (If ongoing study) landing page for study participants
  
-## Current sections
+### Current sections
 
 - [What we study](https://pielab-science.com/research)
 - About
@@ -22,18 +24,18 @@ PR for the PIE lab
 - Friends of the lab
 - [Cooling on the rack](https://pielab-science.com/blog/) (news)
  
-## How to update
+### How to update
   - Go to [pielab-science.com/admin](https://pielab-science.com/admin) and log in (see above for username/password details)
   - See sections below for updating specific aspects
 
-### Your profile
+#### Your profile
  - Go to the Media section (on the left-hand menu) and click Add New
  - Drop file into box, or select using menus
  - Go to Pages (left-hand menu) and hover over your page -- select Edit with Elementor
  - Use the interface to change text, upload a new picture, include links to other pages, whatever you want!
  - Be sure to click Update before leaving the page.
   
-### Your CV
+#### Your CV
  - Go to the Media section (on the left-hand menu) and click Add New
  - Drop file into box, or select using menus
  - Go to Pages (left-hand menu) and hover over your page -- select Edit with Elementor
@@ -43,7 +45,7 @@ PR for the PIE lab
        - Delete the current link to the CV and add a new one with the Add Media button.
  - Be sure to click Update before leaving the page.
  
-### Troubleshooting
+#### Troubleshooting
 
 *If the page doesn't update*
 
@@ -53,3 +55,37 @@ PR for the PIE lab
 - Clear your browser Cache
      - This will be under your browser's settings. 
      - Try opening the webpage in an incognito window as well, to see if this is a problem.
+
+
+## Lab Manual
+
+### Clone lab manual to your computer
+
+*Note: this is only available to current graduate students and PIs in the lab.*
+
+**Necessary materials:**
+
+- Git
+- GitHub account with access to [PIElab organization](https://github.com/orgs/pie-lab) 
+- Rstudio that is connected to GitHub through your personal account.
+
+1. Go to [manual repository](https://github.com/pie-lab/manual). 
+2. Click on the green *Clone or download* button. 
+3. Copy the link that appears. 
+4. Open RStudio. Create a New Project.
+5. Select Version Control and then Git. Name the project ``manual'' (so it matches the Rproj file that already exists in the repository. Save this project somewhere you will remember.
+
+### Updating the manual
+
+**Before you make ANY changes:**
+
+1. Open the manual RStudio project. 
+2. Pull the most recent version of the manual using the blue down arrow. 
+
+**Make any changes to the manual as you think are necessary.**
+
+3. In the Build tab in Rstudio, click on *Build Book*.
+4. In the Git tab, click Commit. In the commit message section, briefly (4-5 words max) describe the changes you made. Example: wrote updating manual section. In the window on the left, the easiest thing to do is select everything and click *Stage*. Ensure all the boxes are checked. This will be slower than only selecting the parts of the book that have changed. However, the nature of an RMarkdown book is many changes affect most parts of the book (because it changes you navigate to them). If you miss a change you have made, the book may not render properly online. Click the *Commit Button*.
+5. Click on the green up arrow to push the book to GitHub, which will update the book online.
+
+
