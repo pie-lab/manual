@@ -4,6 +4,10 @@ Talapas is the high performance computing cluster managed by Research Advanced C
 
 In this document, the numbered sections below will deal with separate tasks that users in the lab might want to perform on Talapas. If you learn how to do something that is not documented below, please add it to the list, even if you are unsure that others will find it useful. Or, just point to the documentation available online.
 
+## Requesting Access
+
+Go to this [website](https://hpcrcf.atlassian.net/servicedesk/customer/portal/1) to request access to the PIE lab Talapas account. Fill out the New Account Request Form, including **pielab** as the PIRG.
+
 ## Using Open OnDemand Interactive Access
 
 The RACS team recommends using an incognito tab in Chrome or Firefox before logging in to Talapas (Safari will not work), as this may help to limit the potential for someone to misuse your credentials. Bear in mind that computing services can be costly so there is more at risk than your personal info (and data).

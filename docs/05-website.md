@@ -88,4 +88,15 @@ PR for the PIE lab
 4. In the Git tab, click Commit. In the commit message section, briefly (4-5 words max) describe the changes you made. Example: wrote updating manual section. In the window on the left, the easiest thing to do is select everything and click *Stage*. Ensure all the boxes are checked. This will be slower than only selecting the parts of the book that have changed. However, the nature of an RMarkdown book is many changes affect most parts of the book (because it changes you navigate to them). If you miss a change you have made, the book may not render properly online. Click the *Commit Button*.
 5. Click on the green up arrow to push the book to GitHub, which will update the book online.
 
+### Requesting updates
+
+You may be unable to make changes to the lab manual because you are not authorized to make changes or don't know the answer to the question. In either of those cases, you make create an issue on the GitHub page to alert the lab to the need for additional material. To do so:
+
+1. Go to the [Issues tab](https://github.com/pie-lab/manual/issues) on the GitHub page for the lab manual.
+2. Click on New Issue and complete the form. Be sure to include as much detail as you can about the issue you have. The more detailed your request, the better the information in the manual will be. 
+
+*Note: create one issue request for each question you have. Don't put lots of requests into a single issue.*
+
+Other lab members can take responsibility for this issue by self-assigning the issue. Once material has been added to the manual, the member responsible for resolving the issue should reply to the original poster, including a link to the relevant section. If this meets the need of the original poster, they should reply so and the issue can be marked as closed. 
+
 
