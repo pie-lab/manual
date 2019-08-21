@@ -24,7 +24,7 @@
 <meta name="author" content="The PIE lab" />
 
 
-<meta name="date" content="2019-08-06" />
+<meta name="date" content="2019-08-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -115,8 +115,9 @@
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="website-and-lab-manual.html"><a href="website-and-lab-manual.html#lab-manual"><i class="fa fa-check"></i><b>5.2</b> Lab Manual</a><ul>
 <li class="chapter" data-level="5.2.1" data-path="website-and-lab-manual.html"><a href="website-and-lab-manual.html#clone-lab-manual-to-your-computer"><i class="fa fa-check"></i><b>5.2.1</b> Clone lab manual to your computer</a></li>
-<li class="chapter" data-level="5.2.2" data-path="website-and-lab-manual.html"><a href="website-and-lab-manual.html#updating-the-manual"><i class="fa fa-check"></i><b>5.2.2</b> Updating the manual</a></li>
-<li class="chapter" data-level="5.2.3" data-path="website-and-lab-manual.html"><a href="website-and-lab-manual.html#requesting-updates"><i class="fa fa-check"></i><b>5.2.3</b> Requesting updates</a></li>
+<li class="chapter" data-level="5.2.2" data-path="website-and-lab-manual.html"><a href="website-and-lab-manual.html#updating-the-manual-using-the-rstudio-gui"><i class="fa fa-check"></i><b>5.2.2</b> Updating the manual [using the RStudio GUI]</a></li>
+<li class="chapter" data-level="5.2.3" data-path="website-and-lab-manual.html"><a href="website-and-lab-manual.html#updating-the-manual-using-the-terminal-in-rstudio"><i class="fa fa-check"></i><b>5.2.3</b> Updating the manual [using the terminal in Rstudio]</a></li>
+<li class="chapter" data-level="5.2.4" data-path="website-and-lab-manual.html"><a href="website-and-lab-manual.html#requesting-updates"><i class="fa fa-check"></i><b>5.2.4</b> Requesting updates</a></li>
 </ul></li>
 </ul></li>
 <li class="divider"></li>
@@ -232,8 +233,8 @@
 <li>Select Version Control and then Git. Name the project ``manual’’ (so it matches the Rproj file that already exists in the repository. Save this project somewhere you will remember.</li>
 </ol>
 </div>
-<div id="updating-the-manual" class="section level3">
-<h3><span class="header-section-number">5.2.2</span> Updating the manual</h3>
+<div id="updating-the-manual-using-the-rstudio-gui" class="section level3">
+<h3><span class="header-section-number">5.2.2</span> Updating the manual [using the RStudio GUI]</h3>
 <p><strong>Before you make ANY changes:</strong></p>
 <ol style="list-style-type: decimal">
 <li>Open the manual RStudio project.</li>
@@ -246,8 +247,33 @@
 <li>Click on the green up arrow to push the book to GitHub, which will update the book online.</li>
 </ol>
 </div>
+<div id="updating-the-manual-using-the-terminal-in-rstudio" class="section level3">
+<h3><span class="header-section-number">5.2.3</span> Updating the manual [using the terminal in Rstudio]</h3>
+<p><strong>Before you make ANY changes:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Open the manual RStudio project.</li>
+<li>In the terminal window of RStudio, pull the most recent version using this code:</li>
+</ol>
+<pre class="git"><code>git pull</code></pre>
+<p><strong>Make any changes to the manual as you think are necessary.</strong></p>
+<ol start="3" style="list-style-type: decimal">
+<li>In the Build tab in Rstudio, click on <em>Build Book</em>.</li>
+<li>In the Terminal, commit your changes. The easiest way to do this is to type:</li>
+</ol>
+<pre class="git"><code>git add .</code></pre>
+<p>where the period indicate to include anything. Alternatively, you can add only specific files, if you don’t want to commit everything. For example:</p>
+<pre class="git"><code>git add file.R</code></pre>
+<p>or:</p>
+<pre class="git"><code>git add path/file.R</code></pre>
+<p>To commit your changes, type:</p>
+<pre class="git"><code>git commit -m &quot;message here&quot;</code></pre>
+<p>Be sure to include a message describing the changes. Keep the message short.</p>
+<p>Finally upload your changes with:</p>
+<pre class="git"><code>git push</code></pre>
+<p>You’re done!</p>
+</div>
 <div id="requesting-updates" class="section level3">
-<h3><span class="header-section-number">5.2.3</span> Requesting updates</h3>
+<h3><span class="header-section-number">5.2.4</span> Requesting updates</h3>
 <p>You may be unable to make changes to the lab manual because you are not authorized to make changes or don’t know the answer to the question. In either of those cases, you make create an issue on the GitHub page to alert the lab to the need for additional material. To do so:</p>
 <ol style="list-style-type: decimal">
 <li>Go to the <a href="https://github.com/pie-lab/manual/issues">Issues tab</a> on the GitHub page for the lab manual.</li>

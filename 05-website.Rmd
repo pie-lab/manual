@@ -75,7 +75,7 @@ PR for the PIE lab
 4. Open RStudio. Create a New Project.
 5. Select Version Control and then Git. Name the project ``manual'' (so it matches the Rproj file that already exists in the repository. Save this project somewhere you will remember.
 
-### Updating the manual
+### Updating the manual [using the RStudio GUI]
 
 **Before you make ANY changes:**
 
@@ -87,6 +87,48 @@ PR for the PIE lab
 3. In the Build tab in Rstudio, click on *Build Book*.
 4. In the Git tab, click Commit. In the commit message section, briefly (4-5 words max) describe the changes you made. Example: wrote updating manual section. In the window on the left, the easiest thing to do is select everything and click *Stage*. Ensure all the boxes are checked. This will be slower than only selecting the parts of the book that have changed. However, the nature of an RMarkdown book is many changes affect most parts of the book (because it changes you navigate to them). If you miss a change you have made, the book may not render properly online. Click the *Commit Button*.
 5. Click on the green up arrow to push the book to GitHub, which will update the book online.
+
+### Updating the manual [using the terminal in Rstudio]
+
+**Before you make ANY changes:**
+
+1. Open the manual RStudio project. 
+2. In the terminal window of RStudio, pull the most recent version using this code:
+
+```{git pull}
+git pull
+```
+
+
+**Make any changes to the manual as you think are necessary.**
+
+3. In the Build tab in Rstudio, click on *Build Book*.
+4. In the Terminal, commit your changes. The easiest way to do this is to type:
+
+```{git add all}
+git add .
+```
+
+where the period indicate to include anything. Alternatively, you can add only specific files, if you don't want to commit everything. For example:
+
+```{git add one}
+git add file.R
+```
+or:
+```{git add phat}
+git add path/file.R
+```
+To commit your changes, type:
+```{git commit}
+git commit -m "message here"
+```
+Be sure to include a message describing the changes. Keep the message short.
+
+Finally upload your changes with:
+```{git push}
+git push
+```
+You're done!
 
 ### Requesting updates
 
