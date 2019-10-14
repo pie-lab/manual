@@ -38,3 +38,17 @@ Science must be verifiable by others. For this reason, we strive to be transpare
 ### Respect
 
 
+## Network Drive
+
+Files can be shared among lab members using the lab network drive. 
+
+### Accessing the drive on a Mac
+
+1. Go to 'Connect to Server'.
+2. If you're off-campus, connect to the UO VPN.
+3. Enter the network address: `smb://cas-fs2.uoregon.edu/Psychology/a/PIElab`. (It's worth adding this as a favorite network so you don't have to remember the address again.)
+4. Enter your DuckID and your password when prompted. Note that you can only gain access if you have been approved for access. 
+
+### Accessing the drive on a PC
+
+1. Follow directions [here](https://casit.uoregon.edu/faq/mapping-file-shares-in-windows-10).

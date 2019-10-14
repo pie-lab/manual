@@ -1,5 +1,11 @@
 # Resources
 
+## UO resources
+
+### Virtual Private Network (VPN)
+
+Instructions are [here](https://casit.uoregon.edu/faq/distance-work/cisco-vpn).
+
 ## R
 
 ### Learning R 
