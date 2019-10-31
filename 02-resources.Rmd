@@ -21,3 +21,7 @@ Instructions are [here](https://casit.uoregon.edu/faq/distance-work/cisco-vpn).
 
 * [Dan Simons's writing guide](http://www.dansimons.com/resources/writing_tips.html)
 * [E.J. Wagenmaker's guide](http://www.ejwagenmakers.com/2009/TeachingTipsWriting.pdf)
+
+## Presentations
+
+* [Presentation by Rachael Meager](https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fd8wm9%2Fdownload)
