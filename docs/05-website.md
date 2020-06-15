@@ -61,7 +61,10 @@ PR for the PIE lab
 
 ### Clone lab manual to your computer
 
-*Note: this is only available to current graduate students and PIs in the lab.*
+*Notes*:
+
+  1. *this is only available to current graduate students and PIs in the lab.*
+  2. *the steps listed here only need to be followed on the first use.*
 
 **Necessary materials:**
 
