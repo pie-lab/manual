@@ -27,26 +27,33 @@
 \contentsline {subsection}{\numberline {3.2.2}To launch an interactive session}{12}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}To determine the memory usage of jobs previously run}{13}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}To run a live session of RStudio}{14}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Ending your interactive session}{14}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Using Talapas for Batch Jobs}{14}{section.3.3}
-\contentsline {chapter}{\numberline {4}Onboarding}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}CITI training}{15}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Where to get CITI training}{15}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Required courses}{15}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}When you're done}{15}{subsection.4.1.3}
-\contentsline {chapter}{\numberline {5}Website and Lab Manual}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Website}{17}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Details}{17}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Purpose}{17}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Current sections}{17}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}How to update}{17}{subsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.4.1}Your profile}{18}{subsubsection.5.1.4.1}
-\contentsline {subsubsection}{\numberline {5.1.4.2}Your CV}{18}{subsubsection.5.1.4.2}
-\contentsline {subsubsection}{\numberline {5.1.4.3}Troubleshooting}{18}{subsubsection.5.1.4.3}
-\contentsline {section}{\numberline {5.2}Lab Manual}{19}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Clone lab manual to your computer}{19}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Updating the manual {[}using the RStudio GUI{]}}{19}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Updating the manual {[}using the terminal in Rstudio{]}}{19}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Requesting updates}{20}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}Life}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Taxes}{23}{section.6.1}
+\contentsline {subsection}{\numberline {3.2.5}Ending your interactive session}{15}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Using Talapas for Batch Jobs}{15}{section.3.3}
+\contentsline {chapter}{\numberline {4}Onboarding}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}CITI training}{17}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Where to get CITI training}{17}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Required courses}{17}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}When you're done}{17}{subsection.4.1.3}
+\contentsline {chapter}{\numberline {5}Website and Lab Manual}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Website}{19}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Details}{19}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Purpose}{19}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Current sections}{19}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}How to update}{19}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}Your profile}{20}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}Your CV}{20}{subsubsection.5.1.4.2}
+\contentsline {subsubsection}{\numberline {5.1.4.3}Troubleshooting}{20}{subsubsection.5.1.4.3}
+\contentsline {section}{\numberline {5.2}Lab Manual}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Clone lab manual to your computer}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Updating the manual {[}using the RStudio GUI{]}}{21}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Updating the manual {[}using the terminal in Rstudio{]}}{22}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Requesting updates}{22}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Life}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Taxes}{25}{section.6.1}
+\contentsline {chapter}{\numberline {7}SAPA project website}{27}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{27}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Infrastructure}{27}{subsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.1}Admin console}{27}{subsubsection.7.1.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.2}How to add new administrators / owners}{27}{subsubsection.7.1.1.2}
+\contentsline {subsection}{\numberline {7.1.2}How to connect to database}{27}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Connecting from R}{28}{subsection.7.1.3}

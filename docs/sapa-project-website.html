@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Website and Lab Manual | PIE Lab Manual</title>
+  <title>Chapter 7 SAPA project website | PIE Lab Manual</title>
   <meta name="description" content="Resources, standard operating procedures, tips, tricks, rules" />
   <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Website and Lab Manual | PIE Lab Manual" />
+  <meta property="og:title" content="Chapter 7 SAPA project website | PIE Lab Manual" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://pielab-science.com" />
   <meta property="og:image" content="https://pielab-science.comimages/PIElab5.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="pie-lab/manual" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Website and Lab Manual | PIE Lab Manual" />
+  <meta name="twitter:title" content="Chapter 7 SAPA project website | PIE Lab Manual" />
   
   <meta name="twitter:description" content="Resources, standard operating procedures, tips, tricks, rules" />
   <meta name="twitter:image" content="https://pielab-science.comimages/PIElab5.png" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="onboarding.html"/>
-<link rel="next" href="life.html"/>
+<link rel="prev" href="life.html"/>
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -198,149 +198,73 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="website-and-lab-manual" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Website and Lab Manual</h1>
-<div id="website" class="section level2">
-<h2><span class="header-section-number">5.1</span> Website</h2>
-<div id="details" class="section level3">
-<h3><span class="header-section-number">5.1.1</span> Details</h3>
-<p>URL: <a href="https://pielab-science.com">pielab-science.com</a></p>
-<p>Username and password: email Sara or David for this information.</p>
+<div id="sapa-project-website" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> SAPA project website</h1>
+<div id="introduction" class="section level2">
+<h2><span class="header-section-number">7.1</span> Introduction</h2>
+<p>The <a href="https://sapa-project.org/">SAPA Project</a> hosts surveys that explore different dimensions of personality.</p>
+<div id="infrastructure" class="section level3">
+<h3><span class="header-section-number">7.1.1</span> Infrastructure</h3>
+<p>The SAPA Project is hosted on <a href="https://cloud.google.com/">Google Cloud</a>. There is one active compute engine virtual machine (VM) instance, and one backup or staging instance. The VM instances run an <a href="http://httpd.apache.org/docs/2.4/">Apache/2.4.25 web server</a> on Debian 9 (stretch) Linux based operating system that hosts the actual SAPA Project website. Each time a user completes a survey, the survey results are stored in a MySQL database, which is running on a Google Cloud SQL instance running <a href="https://dev.mysql.com/doc/refman/5.7/en/">MySQL 5.7</a>.</p>
+<div id="admin-console" class="section level4">
+<h4><span class="header-section-number">7.1.1.1</span> Admin console</h4>
+<p>Admin console for the computing infrastructure is available at <a href="https://console.cloud.google.com" class="uri">https://console.cloud.google.com</a>.</p>
 </div>
-<div id="purpose" class="section level3">
-<h3><span class="header-section-number">5.1.2</span> Purpose</h3>
-<p>PR for the PIE lab - Who’s part of the PIE lab - What are we currently doing? - (If actively recruiting) landing page for new recuirts - (If ongoing study) landing page for study participants</p>
-</div>
-<div id="current-sections" class="section level3">
-<h3><span class="header-section-number">5.1.3</span> Current sections</h3>
-<ul>
-<li><a href="https://pielab-science.com/research">What we study</a></li>
-<li>About</li>
-<li>Current lab members (with a page for each)</li>
-<li>Friends of the lab</li>
-<li><a href="https://pielab-science.com/blog/">Cooling on the rack</a> (news)</li>
-</ul>
-</div>
-<div id="how-to-update" class="section level3">
-<h3><span class="header-section-number">5.1.4</span> How to update</h3>
-<ul>
-<li>Go to <a href="https://pielab-science.com/admin">pielab-science.com/admin</a> and log in (see above for username/password details)</li>
-<li>See sections below for updating specific aspects</li>
-</ul>
-<div id="your-profile" class="section level4">
-<h4><span class="header-section-number">5.1.4.1</span> Your profile</h4>
-<ul>
-<li>Go to the Media section (on the left-hand menu) and click Add New</li>
-<li>Drop file into box, or select using menus</li>
-<li>Go to Pages (left-hand menu) and hover over your page – select Edit with Elementor</li>
-<li>Use the interface to change text, upload a new picture, include links to other pages, whatever you want!</li>
-<li>Be sure to click Update before leaving the page.</li>
-</ul>
-</div>
-<div id="your-cv" class="section level4">
-<h4><span class="header-section-number">5.1.4.2</span> Your CV</h4>
-<ul>
-<li>Go to the Media section (on the left-hand menu) and click Add New</li>
-<li>Drop file into box, or select using menus</li>
-<li>Go to Pages (left-hand menu) and hover over your page – select Edit with Elementor</li>
-<li>Hover over the box that contains the text. A pencil will show up in the corner; click on it.</li>
-<li>On the left-hand side, an Edit Text Editor menu will show up. Find the link to your CV. If you click on it, the link to the PDF will appear. You can either
-<ul>
-<li>Edit the link to match the new upload (involves changing the year and month of upload and the name of the file as it was uploaded to Wordpress), or</li>
-<li>Delete the current link to the CV and add a new one with the Add Media button.</li>
-</ul></li>
-<li>Be sure to click Update before leaving the page.</li>
-</ul>
-</div>
-<div id="troubleshooting" class="section level4">
-<h4><span class="header-section-number">5.1.4.3</span> Troubleshooting</h4>
-<p><em>If the page doesn’t update</em></p>
-<ul>
-<li>Wait 15 minutes and reload the webpage.</li>
-<li>Clear the wordpress Cache
-<ul>
-<li>On the wordpress dashboard, click on Mangaged Wordpress (top) and select Flush Cache. This will take a minute or so.</li>
-</ul></li>
-<li>Clear your browser Cache
-<ul>
-<li>This will be under your browser’s settings.</li>
-<li>Try opening the webpage in an incognito window as well, to see if this is a problem.</li>
-</ul></li>
-</ul>
+<div id="how-to-add-new-administrators-owners" class="section level4">
+<h4><span class="header-section-number">7.1.1.2</span> How to add new administrators / owners</h4>
+<p>Add a new user from the <a href="https://console.cloud.google.com/iam-admin/iam?project=silken-alloy-248920">IAM &amp; Admin</a> admin console page.</p>
 </div>
 </div>
-</div>
-<div id="lab-manual" class="section level2">
-<h2><span class="header-section-number">5.2</span> Lab Manual</h2>
-<div id="clone-lab-manual-to-your-computer" class="section level3">
-<h3><span class="header-section-number">5.2.1</span> Clone lab manual to your computer</h3>
-<p><em>Notes</em>:</p>
+<div id="how-to-connect-to-database" class="section level3">
+<h3><span class="header-section-number">7.1.2</span> How to connect to database</h3>
+<p><em>First time users:</em></p>
 <ol style="list-style-type: decimal">
-<li><em>this is only available to current graduate students and PIs in the lab.</em></li>
-<li><em>the steps listed here only need to be followed on the first use.</em></li>
+<li>Download and install the <a href="https://cloud.google.com/sdk/docs/downloads-interactive">Google Cloud SDK</a></li>
+<li>Download and install the <a href="https://cloud.google.com/sql/docs/mysql/connect-admin-proxy#install">Google Cloud SQL Proxy</a></li>
+<li>Download and install a MySQL client. On macOS, use homebrew to install a command line client via <code>brew install mysql</code>, or you can install the <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench GUI client</a></li>
 </ol>
-<p><strong>Necessary materials:</strong></p>
 <ul>
-<li>Git</li>
-<li>GitHub account with access to <a href="https://github.com/orgs/pie-lab">PIElab organization</a></li>
-<li>Rstudio that is connected to GitHub through your personal account.</li>
+<li>In a terminal session, authenticate to Google services</li>
 </ul>
-<ol style="list-style-type: decimal">
-<li>Go to <a href="https://github.com/pie-lab/manual">manual repository</a>.</li>
-<li>Click on the green <em>Clone or download</em> button.</li>
-<li>Copy the link that appears.</li>
-<li>Open RStudio. Create a New Project.</li>
-<li>Select Version Control and then Git. Name the project ``manual’’ (so it matches the Rproj file that already exists in the repository. Save this project somewhere you will remember.</li>
-</ol>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">gcloud</span> auth login</code></pre></div>
+<p>A web browser will open and direct you to login to your Google account.</p>
+<ul>
+<li>Start the <code>cloud_sql_proxy</code>:</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">cloud_sql_proxy</span> -instances=silken-alloy-248920:us-west1:woodworth-pi-improvement-project-1920=tcp:3306</code></pre></div>
+<p>If the command succeeds, you’ll see the following message returned to your shell:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">Ready</span> for new connections</code></pre></div>
+<p>The Cloud SQL Proxy allows you to make connections to the MySQL database running in Google Cloud as if the database was running locally.</p>
+<ul>
+<li>In a new terminal window, verify the connection:</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">mysql</span> -h 127.0.0.1 -u SAPAreader -p</code></pre></div>
+<p>Enter the password when prompted. If the connection is successful, then you’ll see the mysql prompt:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">mysql</span><span class="op">&gt;</span> </code></pre></div>
 </div>
-<div id="updating-the-manual-using-the-rstudio-gui" class="section level3">
-<h3><span class="header-section-number">5.2.2</span> Updating the manual [using the RStudio GUI]</h3>
-<p><strong>Before you make ANY changes:</strong></p>
-<ol style="list-style-type: decimal">
-<li>Open the manual RStudio project.</li>
-<li>Pull the most recent version of the manual using the blue down arrow.</li>
-</ol>
-<p><strong>Make any changes to the manual as you think are necessary.</strong></p>
-<ol start="3" style="list-style-type: decimal">
-<li>In the Build tab in Rstudio, click on <em>Build Book</em>.</li>
-<li>In the Git tab, click Commit. In the commit message section, briefly (4-5 words max) describe the changes you made. Example: wrote updating manual section. In the window on the left, the easiest thing to do is select everything and click <em>Stage</em>. Ensure all the boxes are checked. This will be slower than only selecting the parts of the book that have changed. However, the nature of an RMarkdown book is many changes affect most parts of the book (because it changes you navigate to them). If you miss a change you have made, the book may not render properly online. Click the <em>Commit Button</em>.</li>
-<li>Click on the green up arrow to push the book to GitHub, which will update the book online.</li>
-</ol>
-</div>
-<div id="updating-the-manual-using-the-terminal-in-rstudio" class="section level3">
-<h3><span class="header-section-number">5.2.3</span> Updating the manual [using the terminal in Rstudio]</h3>
-<p><strong>Before you make ANY changes:</strong></p>
-<ol style="list-style-type: decimal">
-<li>Open the manual RStudio project.</li>
-<li>In the terminal window of RStudio, pull the most recent version using this code:</li>
-</ol>
-<pre class="git"><code>git pull</code></pre>
-<p><strong>Make any changes to the manual as you think are necessary.</strong></p>
-<ol start="3" style="list-style-type: decimal">
-<li>In the Build tab in Rstudio, click on <em>Build Book</em>.</li>
-<li>In the Terminal, commit your changes. The easiest way to do this is to type:</li>
-</ol>
-<pre class="git"><code>git add .</code></pre>
-<p>where the period indicate to include anything. Alternatively, you can add only specific files, if you don’t want to commit everything. For example:</p>
-<pre class="git"><code>git add file.R</code></pre>
-<p>or:</p>
-<pre class="git"><code>git add path/file.R</code></pre>
-<p>To commit your changes, type:</p>
-<pre class="git"><code>git commit -m &quot;message here&quot;</code></pre>
-<p>Be sure to include a message describing the changes. Keep the message short.</p>
-<p>Finally upload your changes with:</p>
-<pre class="git"><code>git push</code></pre>
-<p>You’re done!</p>
-</div>
-<div id="requesting-updates" class="section level3">
-<h3><span class="header-section-number">5.2.4</span> Requesting updates</h3>
-<p>You may be unable to make changes to the lab manual because you are not authorized to make changes or don’t know the answer to the question. In either of those cases, you make create an issue on the GitHub page to alert the lab to the need for additional material. To do so:</p>
-<ol style="list-style-type: decimal">
-<li>Go to the <a href="https://github.com/pie-lab/manual/issues">Issues tab</a> on the GitHub page for the lab manual.</li>
-<li>Click on New Issue and complete the form. Be sure to include as much detail as you can about the issue you have. The more detailed your request, the better the information in the manual will be.</li>
-</ol>
-<p><em>Note: create one issue request for each question you have. Don’t put lots of requests into a single issue.</em></p>
-<p>Other lab members can take responsibility for this issue by self-assigning the issue. Once material has been added to the manual, the member responsible for resolving the issue should reply to the original poster, including a link to the relevant section. If this meets the need of the original poster, they should reply so and the issue can be marked as closed.</p>
+<div id="connecting-from-r" class="section level3">
+<h3><span class="header-section-number">7.1.3</span> Connecting from R</h3>
+<p>Following the instructions here: <a href="https://cloud.google.com/blog/products/gcp/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql" class="uri">https://cloud.google.com/blog/products/gcp/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql</a></p>
+<p>It is helpful to create a function that creates the connection to the MySQL database:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(RMySQL)
+
+getSqlConnection &lt;-<span class="st"> </span><span class="cf">function</span>(){
+  con &lt;-
+<span class="st">    </span><span class="kw">dbConnect</span>(
+      RMySQL<span class="op">::</span><span class="kw">MySQL</span>(),
+      <span class="dt">username =</span> <span class="st">&#39;SAPAreader&#39;</span>,
+      <span class="dt">password =</span> <span class="st">&#39;password&#39;</span>,
+      <span class="dt">host =</span> <span class="st">&#39;127.0.0.1&#39;</span>,
+      <span class="dt">dbname =</span> <span class="st">&#39;SAPAactive&#39;</span>
+    )
+  <span class="kw">return</span>(con)
+}</code></pre></div>
+<p>Then you can query any table in the <code>SAPAactive</code> database by following this example, which queries 10 results from the <code>TAIE_responses_111119</code> table:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">conn &lt;-<span class="st"> </span><span class="kw">getSqlConnection</span>()
+res &lt;-<span class="st"> </span><span class="kw">dbSendQuery</span>(conn, <span class="st">&quot;select * from TAIE_responses_111119 limit 10&quot;</span>)
+data &lt;-<span class="st"> </span><span class="kw">dbFetch</span>(res)
+<span class="kw">print</span>(data)
+<span class="kw">dbDisconnect</span>(conn)</code></pre></div>
 
 </div>
 </div>
@@ -350,8 +274,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
-<a href="onboarding.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="life.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="life.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
