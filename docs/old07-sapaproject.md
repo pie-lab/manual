@@ -1,0 +1,86 @@
+# SAPA project website
+
+## Introduction
+The [SAPA Project](https://sapa-project.org/) hosts surveys that explore different dimensions
+of personality.
+
+### Infrastructure
+The SAPA Project is hosted on [Google Cloud](https://cloud.google.com/). There is one active compute engine virtual machine (VM) instance, and one backup or staging instance. The VM instances run an [Apache/2.4.25 web server](http://httpd.apache.org/docs/2.4/) on Debian 9 (stretch) Linux based operating system that hosts the actual SAPA Project website. Each time a user completes a survey, the survey results are stored in a MySQL database, which is running on a Google Cloud SQL instance running [MySQL 5.7](https://dev.mysql.com/doc/refman/5.7/en/).
+
+#### Admin console
+Admin console for the computing infrastructure is available at [https://console.cloud.google.com](https://console.cloud.google.com).
+
+#### How to add new administrators / owners
+Add a new user from the [IAM & Admin](https://console.cloud.google.com/iam-admin/iam?project=silken-alloy-248920) admin console page.
+
+### How to connect to database
+
+*First time users:*
+
+1. Download and install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/downloads-interactive)
+2. Download and install the [Google Cloud SQL Proxy](https://cloud.google.com/sql/docs/mysql/connect-admin-proxy#install)
+3. Download and install a MySQL client. On macOS, use homebrew to install a command line client via `brew install mysql`, or you can install the [MySQL Workbench GUI client](https://dev.mysql.com/downloads/workbench/)
+
+
+
+* In a terminal session, authenticate to Google services
+
+```bash
+gcloud auth login
+```
+A web browser will open and direct you to login to your Google account.
+
+* Start the `cloud_sql_proxy`:
+
+```bash
+cloud_sql_proxy -instances=silken-alloy-248920:us-west1:woodworth-pi-improvement-project-1920=tcp:3306
+```
+
+If the command succeeds, you'll see the following message returned to your shell:
+
+```bash
+Ready for new connections
+```
+The Cloud SQL Proxy allows you to make connections to the MySQL database running in Google Cloud as if the database was running locally. 
+
+* In a new terminal window, verify the connection:
+
+```bash
+mysql -h 127.0.0.1 -u SAPAreader -p
+```
+Enter the password when prompted. If the connection is successful, then you'll see the mysql prompt:
+
+```bash
+mysql> 
+```
+
+### Connecting from R
+Following the instructions here: https://cloud.google.com/blog/products/gcp/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql
+
+It is helpful to create a function that creates the connection to the MySQL database:
+
+```r
+library(RMySQL)
+
+getSqlConnection <- function(){
+  con <-
+    dbConnect(
+      RMySQL::MySQL(),
+      username = 'SAPAreader',
+      password = 'password',
+      host = '127.0.0.1',
+      dbname = 'SAPAactive'
+    )
+  return(con)
+}
+```
+
+Then you can query any table in the `SAPAactive` database by following this example, which queries 10 results from the  `TAIE_responses_111119` table:
+
+```r
+conn <- getSqlConnection()
+res <- dbSendQuery(conn, "select * from TAIE_responses_111119 limit 10")
+data <- dbFetch(res)
+print(data)
+dbDisconnect(conn)
+```
