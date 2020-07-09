@@ -20,13 +20,13 @@ As you work in the lab, think of this manual as a how-to guide (but not all the 
 When you join the lab, please make sure you read the following sections:
 
 - [What we do and why we do it](#whatwedo)
-- Expectations (know what’s expected of you and what you can expect of others)
+- [Expectations](#roles) (know what’s expected of you and what you can expect of others)
 - Onboarding
-- Communication
-- Logistics
-- Day-to-day information
-- Code of Conduct
-- Recurring events
+- [Communication](#communication)
+- [Logistics](#logistics)
+- [Day-to-day information](#daytoday)
+- [Code of Conduct](#codeofconduct)
+- [Recurring events](#events)
 
 This lab manual was inspired by other lab manuals and mentorship statements, specifically [Moin Syed](https://osf.io/qysm2/), [Samuel Mehr](https://thebiologist.rsb.org.uk/biologist/158-biologist/features/2299-how-to-write-a-lab-handbook), and [the Aly Lab](https://github.com/alylab/labmanual/blob/master/aly-lab-manual.docx). We borrow heavily from them in some places, and we’re grateful for their making their work open for us to use. This manual is a work-in-progress and always will be. We plan to reevaluate the manual regularly. If you have ideas about things to add or clarify, let us (David and Sara, the PI’s) know. 
 

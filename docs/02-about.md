@@ -13,3 +13,16 @@
 Sara and David joined the University of Oregon in January 2019, which is when the Personality Is Everywhere Lab was formed. Following the inaugural pi day celebration on March 14, 2019, the lab underwent light renovations during the summer of 2019. We hosted a number of personality researchers during the fall of 2019 (Johanna Hartung, Pat Hill, Colin DeYoung, Dustin Wood) and our first real interview weekend in February of 2020. The lab was fully closed from March to August 2020 in the wake of the COVID-19 pandemic. 
 
 And then...
+
+## Required reading
+
+### Papers by the PIE lab
+
+### Papers etc. by others
+
+- [Goldberg. (1993). The structure of phenotypic traits.](articles/Goldberg-1993-The structure of phenotypic personality traits-.pdf)
+- [Roberts et al. (2007). The power of personality.](articles/roberts2007.pdf)
+- [Hampson. (2012). Personality processes: Mechanisms by which personality traits "get outside the skin."](articles/Hampson-2012-Personality Processes- Mechanisms by which Personality Traits “Get Outside the Skin”.pdf)
+[- Gelman. (2016). What has happened down here is the winds have changed.](https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/)
+
+
