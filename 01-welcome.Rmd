@@ -20,7 +20,7 @@ When you join the lab, please make sure you read the following sections:
 
 - [What we do and why we do it](#whatwedo)
 - [Expectations](#roles) (know what’s expected of you and what you can expect of others)
-- Onboarding
+- [Onboarding](#onboarding)
 - [Communication](#communication)
 - [Logistics](#logistics)
 - [Day-to-day information](#daytoday)

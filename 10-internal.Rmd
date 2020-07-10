@@ -1,4 +1,4 @@
-# Internal Resources (PIE LAB){internal}
+# Internal Resources (PIE LAB){#internal}
 
 ## Talapas
 

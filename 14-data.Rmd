@@ -1,0 +1,19 @@
+# Data{#data}
+
+_Chapter forthcoming_
+
+## Ethics
+
+## SAPA Data
+
+## Collecting data
+
+### Amazon Mechanical Turk
+
+### Prolific
+
+## Storing and Managing
+
+## Codebooks
+
+## Analyzing

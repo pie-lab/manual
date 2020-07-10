@@ -1,7 +1,7 @@
 --- 
 title: "PIE Lab Manual"
 author: "The PIE lab"
-date: "2020-07-08"
+date: "2020-07-10"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
