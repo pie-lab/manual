@@ -1,5 +1,7 @@
-This is the absolute minimum you need to start a [bookdown](https://bookdown.org/yihui/bookdown/) book. You can find the
-preview of this book at http://seankross.com/bookdown-start/
+## PIE Lab Manual
 
-All of the content of this repository is licensed 
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+This is the GitHub repo for the Personality Is Everywhere (PIE) [Lab Manual](https://pie-lab.github.io/manual/).
+
+To propose changes to the manual, please submit an issue. 
+
+This manual was created using [bookdown](https://bookdown.org/yihui/bookdown/). 
