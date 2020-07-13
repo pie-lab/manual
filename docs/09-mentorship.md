@@ -56,7 +56,14 @@ See [course information organized by Lori Olsen](articles/Required Courses F20.d
   - Multilevel Modeling (PSY 607)
   - [Data Science Specialization Sequence](https://github.com/uo-datasci-specialization) (5 courses) in the College of Education (EDLD 610)
 
-### Expected Timeline
+### Expected Timeline{#timeline}
+
+![](articles/timeline.jpg)
+
+The above timeline is just an approximation. There are some hard deadlines, like completing your FYP by November of your second year, but the rest are more guidelines.
+
+You should plan on completing your degree in five years. This is in part due to funding (i.e., we cannot guarantee that there will be funding available for a sixth year), and in part to maximize your career prospects. A sixth year may be considered for exceptional circumstances that disrupt your productivity, although this shouldn't be a point of disucssion until the end of your fourth year. 
+
 ### First-Year Project (FYP)
   
   - To help beginning students develop and demonstrate their abilities as researchers, first-year

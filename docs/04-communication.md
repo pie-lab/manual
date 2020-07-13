@@ -1,6 +1,7 @@
 # Communication{#communication}
 
 **(as of 2020!)**
+
 ## Slack
 
 Slack provides an efficient way to send messages out to the group, share documents, and solicit help or tips. When posting messages or looking for updates, check the appropriate channel: 

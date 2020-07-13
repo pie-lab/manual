@@ -13,9 +13,13 @@ Research interests: personality structure, assessment methods
 Research interests: health behaviors and outcomes, personality development 
 
 ### Graduate students
+
 **Kendall Mather**
+
 **Sarah McDougald**
+
 **Ian Shryock**
+
 **Dillon Welindt**
 
 ### Undergraduate honors students
@@ -70,7 +74,7 @@ Remember that the goal of coursework differs from the goals you had as an underg
 
 **Teaching** is both a requirement and an opportunity in graduate school. Unless we have mountains of funding available, you will be required to GE during most academic terms. This can be an excellent, low-risk way to practice communication, instruction, and working with groups, skills that will be necessary regardless of future career path. Students will benefit from GE-ing for multiple different classes -- this may be more work but can expose them to different teaching styles and types of classes. As a GE, you should consider it your responsibility to attend the class you support, even if the instructor does not require it. Use these opportunities to reflect on what good and bad teaching looks like, how active learning can be incorporated into classes, and what tools or strategies you might implement in a future career. You may consider teaching a summer course as an opportunity for summer funding and also practice. Take this responsibility seriously, but as above, keep efficiency in mind. Please speak to us (David and Sara) if you find that teaching responsibilities are interfering with research. 
 
-**Independence** is a crucial skill for successful researchers. To be clear, independence does not mean that you can complete every stage of a research project perfectly by yourself. But learning how to “figure it out” on your own ensures that when you leave the lab, you’ll have the tools you need to face new challenges and acquire new skills moving forward. In general, we expect our students to do as much as they can on their own and seek us (Sara and David) out when they are stuck. Use your best judgement regarding when this should be. If you need input to move forward, it is your responsibility to seek us out or schedule a meeting (see Communication). Note that your level of independence will change across graduate school -- we expect to provide more regular guidance to new trainees, but by the time you leave the university, you should be able to function independently.
+**Independence** is a crucial skill for successful researchers. To be clear, independence does not mean that you can complete every stage of a research project perfectly by yourself. But learning how to “figure it out” on your own ensures that when you leave the lab, you’ll have the tools you need to face new challenges and acquire new skills moving forward. In general, we expect our students to do as much as they can on their own and seek us (Sara and David) out when they are stuck. Use your best judgement regarding when this should be. If you need input to move forward, it is your responsibility to seek us out or schedule a meeting (see [Communication](#communication)). Note that your level of independence will change across graduate school -- we expect to provide more regular guidance to new trainees, but by the time you leave the university, you should be able to function independently.
 
 **Be collaborative, not competitive** with the other students in our lab. Science is better when people work together, not tear each other down. Respect your fellow lab-mates. They have strengths and weaknesses that they bring to the table -- you can help them, and they can help you. Respect their culture, their religion, their beliefs, their sexual orientation, their perspective on the world. See every way they differ from you as an opportunity to learn and make your science better. Support your fellow lab-mates. Help them out, even if you’re not a co-author on their project. Allow them to vent if they need it and create space for them if they need it. Help them, and you can expect help in return when you need it. Learn to view the wins of your fellow lab-mates as wins for the PIE lab. 
 

@@ -18,11 +18,13 @@ And then...
 
 ### Papers by the PIE lab
 
+- [Weston et al. (2019). Recommendations for increasing the transparency of analysis of pre-existing data.](articles/weston_etal_2019.pdf)
+
 ### Papers etc. by others
 
 - [Goldberg. (1993). The structure of phenotypic traits.](articles/Goldberg-1993-The structure of phenotypic personality traits-.pdf)
 - [Roberts et al. (2007). The power of personality.](articles/roberts2007.pdf)
 - [Hampson. (2012). Personality processes: Mechanisms by which personality traits "get outside the skin."](articles/Hampson-2012-Personality Processes- Mechanisms by which Personality Traits “Get Outside the Skin”.pdf)
-[- Gelman. (2016). What has happened down here is the winds have changed.](https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/)
+- [Gelman. (2016). What has happened down here is the winds have changed.](https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/)
 
 
