@@ -9,14 +9,10 @@ We started this manual for a number of reasons:
 - To ensure that we are constantly evaluating our lab’s goals and values, and whether our policies are in line with those goals and values.
 - As a place to share fun pictures:
 
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{docs/images/Po Speaks} 
-
-}
-
-\caption{Speak, Po, speak.}(\#fig:unnamed-chunk-1)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="docs/images/Po Speaks.jpeg" alt="Speak, Po, speak." width="50%" />
+<p class="caption">(\#fig:unnamed-chunk-1)Speak, Po, speak.</p>
+</div>
  
 
 As you work in the lab, think of this manual as a how-to guide (but not all the time… sometimes, think of whatever it is you’re working on). We hope you’ll start here when you have a question. As we learn how to do new things, as our research methods and analyses change with the times, and as we expand our interests, this manual will change. Let us know if there are things we can or should add. (Or, if you have the appropriate authority on GitHub, go ahead and add resources yourself.)

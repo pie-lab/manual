@@ -18,3 +18,7 @@ description: "Resources, standard operating procedures, tips, tricks, rules"
 
 ![](images/PIElab5.png)
 
+
+## Updating the manual
+
+To request additions or edits to the lab manual, please submit a new [issue](https://github.com/pie-lab/manual/issues). 
