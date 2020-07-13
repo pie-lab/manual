@@ -1,6 +1,6 @@
 --- 
 title: "PIE Lab Manual"
-author: "The PIE lab"
+author: "DRAFT"
 date: "2020-07-13"
 site: bookdown::bookdown_site
 documentclass: book

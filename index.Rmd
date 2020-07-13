@@ -1,6 +1,6 @@
 --- 
 title: "PIE Lab Manual"
-author: "The PIE lab"
+author: "DRAFT"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
