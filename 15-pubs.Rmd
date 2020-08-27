@@ -16,6 +16,8 @@ Authorship arrangements should be discussed at the beginning of a project and re
 
 The same general guidelines apply to conference presentations as well. 
 
+Authorship can also be documented using the [CRediT system](https://casrai.org/credit/), and here's a [useful Shiny app](https://martonbalazskovacs.shinyapps.io/tenzing/) for creating the necessary text for a document, including the papaja YAML.
+
 ## Pre-publication checklist
 
 _Forthcoming_

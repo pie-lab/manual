@@ -28,8 +28,11 @@ Most of what you’ll need to know about the department is buried [here](https:/
 ### Technology
 
 - [Setting up the Virtual Private Network](https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=31471)
-- [Downloading free software](https://software.uoregon.edu/)
+- [Extra advice on the VPN]( https://coehelp.uoregon.edu/how-to-guides/vpn-access-with-cisco-anyconnect/)
+- [Downloading free software](https://software.uoregon.edu/) -- you can rely on the university to give access to software that would otherwise cost money, including MS Office and Adobe products.
 - [Canvas Support Services](https://service.uoregon.edu/TDClient/2030/Portal/Requests/ServiceDet?ID=38635)
+
+- [UO Library](https://library.uoregon.edu/) -- This is an excellent resource for technology on campus. Some of the IT stuff is actually run through the library and, the staff are super knowledgeable and helpful.
 
 ### Financial support
 - [Fellowships and Awards](https://gradschool.uoregon.edu/funding/awards)

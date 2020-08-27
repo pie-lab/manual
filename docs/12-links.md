@@ -2,6 +2,8 @@
 
 ## R and RMarkdown
 
+- [Big Book of R](https://www.bigbookofr.com/) -- A collection of every book using R!
+
 ### Beginners
 
 - [R for Data Science](https://r4ds.had.co.nz/)
@@ -35,6 +37,8 @@ Especially useful cheatsheets include:
   
   - See the section on [Websites](https://bookdown.org/yihui/rmarkdown/websites.html)
   
+- [Advanced R Markdown (customization and extensions)](https://slides.yihui.org/2019-rstudio-conf-rmarkdown-workshop.htm#1) -- lots of useful tips in here, once you're familiar with Markdown.
+  
 - [Awesome tables with kable (PDF)](https://haozhu233.github.io/kableExtra/awesome_table_in_pdf.pdf)
 - [Awesome tables with kable (HTML)](http://haozhu233.github.io/kableExtra/awesome_table_in_html.html)
 - [How to convert a Google doc to RMarkdown](https://www.storybench.org/convert-google-doc-rmarkdown-publish-github-pages/)
@@ -66,15 +70,31 @@ Especially useful cheatsheets include:
 
 - [Dan Simons -- writing guide](http://www.dansimons.com/resources/writing_tips.html)
 - [EJ Wagenmakers -- Teaching graduate students how to write clearly](http://www.ejwagenmakers.com/2009/TeachingTipsWriting.pdf)
+- [Writing Workshop](https://osf.io/z4n3t/) -- includes both tips on how to write (content), as well as the practice of writing regularly. This book also provide the foundation for starting a writing group. 
 - [Practical Typography](https://practicaltypography.com/)
-- [CrossRef](https://doi.crossref.org/simpleTextQuery) -- get DOI's quickly
 
+### Grammar and syntax
+
+- [Verb tenses](https://academicguides.waldenu.edu/writingcenter/grammar/verbtenses)
+
+### Finding articles
+
+- [CrossRef](https://doi.crossref.org/simpleTextQuery) -- get DOI's quickly
 - [Connected Papers](https://www.connectedpapers.com/) -- find other articles related to a specific research article
+
+### Responding to reviews
+
+- [Workflow for R&R](https://getsyeducated.blogspot.com/2020/08/a-workflow-for-dealing-with-dread-of.html)
 
 ## Presentations
 
 - [Public speaking for academics](https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fd8wm9%2Fdownload)
 - [Free PowerPoint templates](https://www.slidescarnival.com/category/free-templates)
+
+
+## Authorship
+
+- [tenzing](https://martonbalazskovacs.shinyapps.io/tenzing/) -- this is a useful Shiny app for creating text (for Word or papaja) that includes author affiliations and also creditorship using the CRediT system. Espescially handy for large teams. 
 
 ## Statistics
 
@@ -94,6 +114,10 @@ Especially useful cheatsheets include:
 
 - [Specification curves](https://github.com/dcosme/specification-curves/blob/master/SCA_tutorial.md)
 
+### Text analysis
+
+- [Structual Topic Models](https://juliasilge.com/blog/evaluating-stm/)
+
 ### Statistical Power
 
 - [Powering interactions](https://approachingblog.wordpress.com/2018/01/24/powering-your-interaction-2/)
@@ -102,6 +126,7 @@ Especially useful cheatsheets include:
 ## Graduate School
 
 - [The Illustrated Guide to a Ph.D.](http://matt.might.net/articles/phd-school-in-pictures/)
+- [Raul Pacheco's resources](http://www.raulpacheco.org/resources/) -- a good collection of tips for everything from time management, to how to read and write, to using social media.
 
 ## Life
 
