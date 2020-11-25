@@ -7,7 +7,7 @@ All the syllabi for all our courses are posted online [here](https://psychology.
 ### Graduate Training
 
 - [Psychology Canvas page](https://canvas.uoregon.edu/courses/47465) -- includes list of departmental awards (note that Sara and David do _not_ have access to this page)
-- [Coursework and requirements](https://psychology.uoregon.edu/graduate/current-students/doctoral-program/coursework-requirements/)
+- [Graduate student handbook](https://psychology.uoregon.edu/files/doctoral_student_handbook_fall_2020.pdf)
 
 ### Resources
 
