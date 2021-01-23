@@ -44,6 +44,17 @@ Especially useful cheatsheets include:
 - [How to convert a Google doc to RMarkdown](https://www.storybench.org/convert-google-doc-rmarkdown-publish-github-pages/)
 - [Making slides](https://arm.rbind.io/slides/xaringan.html#1)
 
+### Using Zotero with RMarkdown
+
+1. [Download and install](https://www.zotero.org/download/) Zotero.
+2. [Download and install](https://retorque.re/zotero-better-bibtex/installation/) the Better BibTex add-on.
+3. Open Zotero, and go to Preference.
+    - Under the Export tab, make sure Default Format is "Better BibTex Citation Key Quick Copy."
+    - Under the Better BibTex tab, make sure the Citation key format is something you'll find useful. (I recommend `[auth:lower][veryshorttitle:lower:alphanum][year]`). 
+4. At this point, you can choose to export your Zotero library to a .bib file, save it to the working directory of your RMarkdown file, and make sure the bibliography line is pointing to that file. Once that's done, you can simply drag from Zotero to your RMarkdown file, to create in-line citations, and the references section at the end will be created for you.
+
+OR, you can install the `citr` package, which works with your Zotero library, so you don't need to create a new .bib file manually for each paper. Seems really convenient! ([More information here](https://github.com/crsh/citr).)
+
 ### GitHub
 
 - [Happy Git with GitHub and R](https://happygitwithr.com/)
