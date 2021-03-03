@@ -126,6 +126,7 @@ Files can be shared among lab members using the lab network drive.
 ### Accessing the drive on a PC
 
 1. Follow directions [here](https://casit.uoregon.edu/faq/mapping-file-shares-in-windows-10).
+
 ## Website
 
 ### Details

@@ -1,156 +1,158 @@
-\contentsline {chapter}{}{7}{chapter*.2}
-\contentsline {section}{\numberline {0.1}Updating the manual}{7}{section.0.1}
-\contentsline {chapter}{\numberline {1}Welcome}{9}{chapter.1}
-\contentsline {chapter}{\numberline {2}What we do and why we do it}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Philosophy of scientific principles}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Chronological and academic history}{12}{section.2.2}
-\contentsline {section}{\numberline {2.3}Required reading}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Papers by the PIE lab}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Papers etc. by others}{12}{subsection.2.3.2}
-\contentsline {chapter}{\numberline {3}Roles and expectations}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}People}{13}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Principal Investigators}{13}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Graduate students}{13}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Undergraduate honors students}{13}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Alumni}{13}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Expectations}{14}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Principal Investigators}{14}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Graduate Students}{14}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Undergraduate students}{17}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Communication}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Slack}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Email}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Response time}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Phone}{20}{section.4.4}
-\contentsline {chapter}{\numberline {5}Logistics}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Getting locked out}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Being in the lab}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Holidays and vacations}{22}{section.5.3}
-\contentsline {section}{\numberline {5.4}Remote working}{22}{section.5.4}
-\contentsline {chapter}{\numberline {6}Day-to-day Information}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Pet Policy}{23}{section.6.1}
-\contentsline {section}{\numberline {6.2}Sickness policy}{23}{section.6.2}
-\contentsline {section}{\numberline {6.3}Be professional}{24}{section.6.3}
-\contentsline {chapter}{\numberline {7}Code of Conduct}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}Scientific integrity}{25}{section.7.1}
-\contentsline {section}{\numberline {7.2}Code of Conduct}{26}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Sexual Harassment and Assault}{26}{subsection.7.2.1}
-\contentsline {section}{\numberline {7.3}Managing Conflict}{27}{section.7.3}
-\contentsline {chapter}{\numberline {8}SAPA project website}{29}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{29}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Infrastructure}{29}{subsection.8.1.1}
-\contentsline {subsubsection}{\numberline {8.1.1.1}Admin console}{29}{subsubsection.8.1.1.1}
-\contentsline {subsubsection}{\numberline {8.1.1.2}How to add new administrators / owners}{29}{subsubsection.8.1.1.2}
-\contentsline {subsection}{\numberline {8.1.2}How to connect to database}{29}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Connecting from R}{30}{subsection.8.1.3}
-\contentsline {chapter}{\numberline {9}Recurring events}{33}{chapter.9}
-\contentsline {section}{\numberline {9.1}Lab Meetings}{33}{section.9.1}
-\contentsline {section}{\numberline {9.2}Departmental talks}{33}{section.9.2}
-\contentsline {section}{\numberline {9.3}Weekly Check-Ins}{35}{section.9.3}
-\contentsline {section}{\numberline {9.4}PI PIE}{35}{section.9.4}
-\contentsline {chapter}{\numberline {10}Mentorship of graduate students}{37}{chapter.10}
-\contentsline {section}{\numberline {10.1}PI Mentorship Philosophy}{37}{section.10.1}
-\contentsline {section}{\numberline {10.2}Primary mentors}{38}{section.10.2}
-\contentsline {section}{\numberline {10.3}Recommendation Letters}{39}{section.10.3}
-\contentsline {section}{\numberline {10.4}UO Program Requirements}{39}{section.10.4}
-\contentsline {subsection}{\numberline {10.4.1}Coursework (required)}{39}{subsection.10.4.1}
-\contentsline {subsection}{\numberline {10.4.2}Expected Timeline}{40}{subsection.10.4.2}
-\contentsline {subsection}{\numberline {10.4.3}First-Year Project (FYP)}{40}{subsection.10.4.3}
-\contentsline {subsection}{\numberline {10.4.4}Supporting Area Project (SAP)}{41}{subsection.10.4.4}
-\contentsline {subsection}{\numberline {10.4.5}Prelims}{41}{subsection.10.4.5}
-\contentsline {subsection}{\numberline {10.4.6}Dissertation Proposal}{41}{subsection.10.4.6}
-\contentsline {subsection}{\numberline {10.4.7}Dissertation}{42}{subsection.10.4.7}
-\contentsline {chapter}{\numberline {11}Internal Resources (PIE LAB)}{43}{chapter.11}
-\contentsline {section}{\numberline {11.1}Talapas}{43}{section.11.1}
-\contentsline {subsubsection}{\numberline {11.1.0.1}Overview}{43}{subsubsection.11.1.0.1}
-\contentsline {subsubsection}{\numberline {11.1.0.2}Requesting Access}{43}{subsubsection.11.1.0.2}
-\contentsline {subsubsection}{\numberline {11.1.0.3}Using Open OnDemand Interactive Access}{43}{subsubsection.11.1.0.3}
-\contentsline {paragraph}{\numberline {11.1.0.3.1}Loading files for Interactive Access}{44}{paragraph.11.1.0.3.1}
-\contentsline {paragraph}{\numberline {11.1.0.3.2}To launch an interactive session}{44}{paragraph.11.1.0.3.2}
-\contentsline {paragraph}{\numberline {11.1.0.3.3}To determine the memory usage of jobs previously run}{45}{paragraph.11.1.0.3.3}
-\contentsline {paragraph}{\numberline {11.1.0.3.4}To run a live session of RStudio}{46}{paragraph.11.1.0.3.4}
-\contentsline {paragraph}{\numberline {11.1.0.3.5}Ending your interactive session}{47}{paragraph.11.1.0.3.5}
-\contentsline {subsubsection}{\numberline {11.1.0.4}Using Talapas for Batch Jobs}{47}{subsubsection.11.1.0.4}
-\contentsline {section}{\numberline {11.2}Server}{47}{section.11.2}
-\contentsline {subsection}{\numberline {11.2.1}Accessing the drive on a Mac}{47}{subsection.11.2.1}
-\contentsline {subsection}{\numberline {11.2.2}Accessing the drive on a PC}{47}{subsection.11.2.2}
-\contentsline {subsection}{\numberline {11.2.3}Details}{47}{subsection.11.2.3}
-\contentsline {subsection}{\numberline {11.2.4}Purpose}{47}{subsection.11.2.4}
-\contentsline {subsection}{\numberline {11.2.5}Current sections}{48}{subsection.11.2.5}
-\contentsline {subsection}{\numberline {11.2.6}How to update}{48}{subsection.11.2.6}
-\contentsline {subsubsection}{\numberline {11.2.6.1}Your profile}{48}{subsubsection.11.2.6.1}
-\contentsline {subsubsection}{\numberline {11.2.6.2}Your CV}{48}{subsubsection.11.2.6.2}
-\contentsline {subsubsection}{\numberline {11.2.6.3}Troubleshooting}{48}{subsubsection.11.2.6.3}
-\contentsline {section}{\numberline {11.3}Manual}{49}{section.11.3}
-\contentsline {subsection}{\numberline {11.3.1}Clone lab manual to your computer}{49}{subsection.11.3.1}
-\contentsline {subsection}{\numberline {11.3.2}Updating the manual {[}using the RStudio GUI{]}}{49}{subsection.11.3.2}
-\contentsline {subsection}{\numberline {11.3.3}Updating the manual {[}using the terminal in Rstudio{]}}{50}{subsection.11.3.3}
-\contentsline {subsection}{\numberline {11.3.4}Requesting updates}{51}{subsection.11.3.4}
-\contentsline {section}{\numberline {11.4}GitHub}{51}{section.11.4}
-\contentsline {section}{\numberline {11.5}Research Assistants}{51}{section.11.5}
-\contentsline {subsection}{\numberline {11.5.1}Joining the PIE lab}{51}{subsection.11.5.1}
-\contentsline {chapter}{\numberline {12}External Resources}{53}{chapter.12}
-\contentsline {section}{\numberline {12.1}Psychology Department}{53}{section.12.1}
-\contentsline {subsection}{\numberline {12.1.1}Graduate Training}{53}{subsection.12.1.1}
-\contentsline {subsection}{\numberline {12.1.2}Resources}{53}{subsection.12.1.2}
-\contentsline {section}{\numberline {12.2}Support at the University of Oregon}{54}{section.12.2}
-\contentsline {subsection}{\numberline {12.2.1}Technology}{54}{subsection.12.2.1}
-\contentsline {subsection}{\numberline {12.2.2}Financial support}{54}{subsection.12.2.2}
-\contentsline {subsection}{\numberline {12.2.3}Professional Societies}{54}{subsection.12.2.3}
-\contentsline {chapter}{\numberline {13}Useful Links}{55}{chapter.13}
-\contentsline {section}{\numberline {13.1}R and RMarkdown}{55}{section.13.1}
-\contentsline {subsection}{\numberline {13.1.1}Beginners}{55}{subsection.13.1.1}
-\contentsline {subsection}{\numberline {13.1.2}Cheatsheets}{55}{subsection.13.1.2}
-\contentsline {subsection}{\numberline {13.1.3}Data Visualization}{56}{subsection.13.1.3}
-\contentsline {subsection}{\numberline {13.1.4}Markdown}{56}{subsection.13.1.4}
-\contentsline {subsection}{\numberline {13.1.5}GitHub}{56}{subsection.13.1.5}
-\contentsline {subsection}{\numberline {13.1.6}Text Analysis}{56}{subsection.13.1.6}
-\contentsline {subsection}{\numberline {13.1.7}Iteration}{56}{subsection.13.1.7}
-\contentsline {subsection}{\numberline {13.1.8}Writing functions}{56}{subsection.13.1.8}
-\contentsline {subsection}{\numberline {13.1.9}Reproducibility}{56}{subsection.13.1.9}
-\contentsline {section}{\numberline {13.2}Writing}{57}{section.13.2}
-\contentsline {subsection}{\numberline {13.2.1}Grammar and syntax}{57}{subsection.13.2.1}
-\contentsline {subsection}{\numberline {13.2.2}Finding articles}{57}{subsection.13.2.2}
-\contentsline {subsection}{\numberline {13.2.3}Responding to reviews}{57}{subsection.13.2.3}
-\contentsline {section}{\numberline {13.3}Presentations}{57}{section.13.3}
-\contentsline {section}{\numberline {13.4}Authorship}{57}{section.13.4}
-\contentsline {section}{\numberline {13.5}Statistics}{57}{section.13.5}
-\contentsline {subsection}{\numberline {13.5.1}Probability}{57}{subsection.13.5.1}
-\contentsline {subsection}{\numberline {13.5.2}Generalized Linear Model}{58}{subsection.13.5.2}
-\contentsline {subsection}{\numberline {13.5.3}Machine learning+}{58}{subsection.13.5.3}
-\contentsline {subsection}{\numberline {13.5.4}Text analysis}{58}{subsection.13.5.4}
-\contentsline {subsection}{\numberline {13.5.5}Statistical Power}{58}{subsection.13.5.5}
-\contentsline {section}{\numberline {13.6}Graduate School}{58}{section.13.6}
-\contentsline {section}{\numberline {13.7}Life}{58}{section.13.7}
-\contentsline {chapter}{\numberline {14}Onboarding}{59}{chapter.14}
-\contentsline {section}{\numberline {14.1}Everyone}{59}{section.14.1}
-\contentsline {section}{\numberline {14.2}Graduate Students}{59}{section.14.2}
-\contentsline {section}{\numberline {14.3}Undergraduate (RA and Honors Students)}{59}{section.14.3}
-\contentsline {chapter}{\numberline {15}Data}{61}{chapter.15}
-\contentsline {section}{\numberline {15.1}SAPA project website}{61}{section.15.1}
-\contentsline {subsection}{\numberline {15.1.1}Introduction}{61}{subsection.15.1.1}
-\contentsline {subsubsection}{\numberline {15.1.1.1}Infrastructure}{61}{subsubsection.15.1.1.1}
-\contentsline {paragraph}{\numberline {15.1.1.1.1}Admin console}{61}{paragraph.15.1.1.1.1}
-\contentsline {paragraph}{\numberline {15.1.1.1.2}How to add new administrators / owners}{61}{paragraph.15.1.1.1.2}
-\contentsline {subsubsection}{\numberline {15.1.1.2}How to connect to database}{61}{subsubsection.15.1.1.2}
-\contentsline {subsubsection}{\numberline {15.1.1.3}Connecting from R}{62}{subsubsection.15.1.1.3}
-\contentsline {section}{\numberline {15.2}Ethics}{63}{section.15.2}
-\contentsline {section}{\numberline {15.3}SAPA Data}{63}{section.15.3}
-\contentsline {section}{\numberline {15.4}Collecting data}{63}{section.15.4}
-\contentsline {subsection}{\numberline {15.4.1}Amazon Mechanical Turk}{63}{subsection.15.4.1}
-\contentsline {subsection}{\numberline {15.4.2}Prolific}{63}{subsection.15.4.2}
-\contentsline {section}{\numberline {15.5}Storing and Managing}{63}{section.15.5}
-\contentsline {section}{\numberline {15.6}Codebooks}{63}{section.15.6}
-\contentsline {section}{\numberline {15.7}Analyzing}{63}{section.15.7}
-\contentsline {chapter}{\numberline {16}Publications}{65}{chapter.16}
-\contentsline {section}{\numberline {16.1}Authorship}{65}{section.16.1}
-\contentsline {section}{\numberline {16.2}Pre-publication checklist}{66}{section.16.2}
-\contentsline {section}{\numberline {16.3}Preprints and open access}{66}{section.16.3}
-\contentsline {section}{\numberline {16.4}Where we submit}{66}{section.16.4}
-\contentsline {chapter}{\numberline {17}Conferences}{67}{chapter.17}
-\contentsline {section}{\numberline {17.1}Conferences we typically attend}{67}{section.17.1}
-\contentsline {section}{\numberline {17.2}How/why to give a talk}{67}{section.17.2}
-\contentsline {chapter}{\numberline {18}Offboarding}{69}{chapter.18}
-\contentsline {section}{\numberline {18.1}Checklist}{69}{section.18.1}
-\contentsline {section}{\numberline {18.2}Unfinished projects and intellectual property}{69}{section.18.2}
-\contentsline {section}{\numberline {18.3}Staying in touch}{69}{section.18.3}
+\contentsline {chapter}{}{7}{chapter*.2}%
+\contentsline {section}{\numberline {0.1}Updating the manual}{7}{section.0.1}%
+\contentsline {chapter}{\numberline {1}Welcome}{9}{chapter.1}%
+\contentsline {chapter}{\numberline {2}What we do and why we do it}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Philosophy of scientific principles}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Chronological and academic history}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Required reading}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Papers by the PIE lab}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Papers etc. by others}{12}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Roles and expectations}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}People}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Principal Investigators}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Graduate students}{13}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Undergraduate honors students}{13}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Alumni}{13}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Expectations}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Principal Investigators}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Graduate Students}{14}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Undergraduate students}{18}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Communication}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Slack}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Email}{20}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Response time}{20}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Phone}{20}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Logistics}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Getting locked out}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Being in the lab}{21}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Holidays and vacations}{22}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Remote working}{22}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Day-to-day Information}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Pet Policy}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Sickness policy}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Be professional}{24}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Code of Conduct}{25}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Scientific integrity}{25}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Code of Conduct}{26}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Sexual Harassment and Assault}{27}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Managing Conflict}{28}{section.7.3}%
+\contentsline {chapter}{\numberline {8}SAPA project website}{29}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introduction}{29}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Infrastructure}{29}{subsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.1.1}Admin console}{29}{subsubsection.8.1.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.1.2}How to add new administrators / owners}{29}{subsubsection.8.1.1.2}%
+\contentsline {subsection}{\numberline {8.1.2}How to connect to database}{29}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Connecting from R}{30}{subsection.8.1.3}%
+\contentsline {chapter}{\numberline {9}Recurring events}{33}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Lab Meetings}{33}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Departmental talks}{33}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Weekly Check-Ins}{35}{section.9.3}%
+\contentsline {section}{\numberline {9.4}PI PIE}{35}{section.9.4}%
+\contentsline {chapter}{\numberline {10}Mentorship of graduate students}{37}{chapter.10}%
+\contentsline {section}{\numberline {10.1}PI Mentorship Philosophy}{37}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Primary mentors}{38}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Recommendation Letters}{39}{section.10.3}%
+\contentsline {section}{\numberline {10.4}UO Program Requirements}{39}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Coursework (required)}{39}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Expected Timeline}{40}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}First-Year Project (FYP)}{40}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}Supporting Area Project (SAP)}{41}{subsection.10.4.4}%
+\contentsline {subsection}{\numberline {10.4.5}Prelims}{41}{subsection.10.4.5}%
+\contentsline {subsection}{\numberline {10.4.6}Dissertation Proposal}{41}{subsection.10.4.6}%
+\contentsline {subsection}{\numberline {10.4.7}Dissertation}{42}{subsection.10.4.7}%
+\contentsline {chapter}{\numberline {11}Internal Resources (PIE LAB)}{43}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Talapas}{43}{section.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.0.1}Overview}{43}{subsubsection.11.1.0.1}%
+\contentsline {subsubsection}{\numberline {11.1.0.2}Requesting Access}{43}{subsubsection.11.1.0.2}%
+\contentsline {subsubsection}{\numberline {11.1.0.3}Using Open OnDemand Interactive Access}{43}{subsubsection.11.1.0.3}%
+\contentsline {paragraph}{\numberline {11.1.0.3.1}Loading files for Interactive Access}{44}{paragraph.11.1.0.3.1}%
+\contentsline {paragraph}{\numberline {11.1.0.3.2}To launch an interactive session}{44}{paragraph.11.1.0.3.2}%
+\contentsline {paragraph}{\numberline {11.1.0.3.3}To determine the memory usage of jobs previously run}{45}{paragraph.11.1.0.3.3}%
+\contentsline {paragraph}{\numberline {11.1.0.3.4}To run a live session of RStudio}{46}{paragraph.11.1.0.3.4}%
+\contentsline {paragraph}{\numberline {11.1.0.3.5}Ending your interactive session}{47}{paragraph.11.1.0.3.5}%
+\contentsline {subsubsection}{\numberline {11.1.0.4}Using Talapas for Batch Jobs}{47}{subsubsection.11.1.0.4}%
+\contentsline {section}{\numberline {11.2}Server}{47}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Accessing the drive on a Mac}{47}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Accessing the drive on a PC}{47}{subsection.11.2.2}%
+\contentsline {section}{\numberline {11.3}Website}{47}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Details}{47}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Purpose}{48}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Current sections}{48}{subsection.11.3.3}%
+\contentsline {subsection}{\numberline {11.3.4}How to update}{48}{subsection.11.3.4}%
+\contentsline {subsubsection}{\numberline {11.3.4.1}Your profile}{48}{subsubsection.11.3.4.1}%
+\contentsline {subsubsection}{\numberline {11.3.4.2}Your CV}{48}{subsubsection.11.3.4.2}%
+\contentsline {subsubsection}{\numberline {11.3.4.3}Troubleshooting}{49}{subsubsection.11.3.4.3}%
+\contentsline {section}{\numberline {11.4}Manual}{49}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}Clone lab manual to your computer}{49}{subsection.11.4.1}%
+\contentsline {subsection}{\numberline {11.4.2}Updating the manual {[}using the RStudio GUI{]}}{50}{subsection.11.4.2}%
+\contentsline {subsection}{\numberline {11.4.3}Updating the manual {[}using the terminal in Rstudio{]}}{50}{subsection.11.4.3}%
+\contentsline {subsection}{\numberline {11.4.4}Requesting updates}{51}{subsection.11.4.4}%
+\contentsline {section}{\numberline {11.5}GitHub}{52}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Research Assistants}{52}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Joining the PIE lab}{52}{subsection.11.6.1}%
+\contentsline {chapter}{\numberline {12}External Resources}{53}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Psychology Department}{53}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}Graduate Training}{53}{subsection.12.1.1}%
+\contentsline {subsection}{\numberline {12.1.2}Resources}{53}{subsection.12.1.2}%
+\contentsline {section}{\numberline {12.2}Support at the University of Oregon}{54}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Technology}{54}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Financial support}{54}{subsection.12.2.2}%
+\contentsline {subsection}{\numberline {12.2.3}Professional Societies}{54}{subsection.12.2.3}%
+\contentsline {chapter}{\numberline {13}Useful Links}{55}{chapter.13}%
+\contentsline {section}{\numberline {13.1}R and RMarkdown}{55}{section.13.1}%
+\contentsline {subsection}{\numberline {13.1.1}Beginners}{55}{subsection.13.1.1}%
+\contentsline {subsection}{\numberline {13.1.2}Cheatsheets}{55}{subsection.13.1.2}%
+\contentsline {subsection}{\numberline {13.1.3}Data Visualization}{56}{subsection.13.1.3}%
+\contentsline {subsection}{\numberline {13.1.4}Markdown}{56}{subsection.13.1.4}%
+\contentsline {subsection}{\numberline {13.1.5}Using Zotero with RMarkdown}{56}{subsection.13.1.5}%
+\contentsline {subsection}{\numberline {13.1.6}GitHub}{56}{subsection.13.1.6}%
+\contentsline {subsection}{\numberline {13.1.7}Text Analysis}{57}{subsection.13.1.7}%
+\contentsline {subsection}{\numberline {13.1.8}Iteration}{57}{subsection.13.1.8}%
+\contentsline {subsection}{\numberline {13.1.9}Writing functions}{57}{subsection.13.1.9}%
+\contentsline {subsection}{\numberline {13.1.10}Reproducibility}{57}{subsection.13.1.10}%
+\contentsline {section}{\numberline {13.2}Writing}{57}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Grammar and syntax}{57}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Finding articles}{57}{subsection.13.2.2}%
+\contentsline {subsection}{\numberline {13.2.3}Responding to reviews}{57}{subsection.13.2.3}%
+\contentsline {section}{\numberline {13.3}Presentations}{58}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Authorship}{58}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Statistics}{58}{section.13.5}%
+\contentsline {subsection}{\numberline {13.5.1}Probability}{58}{subsection.13.5.1}%
+\contentsline {subsection}{\numberline {13.5.2}Generalized Linear Model}{58}{subsection.13.5.2}%
+\contentsline {subsection}{\numberline {13.5.3}Machine learning+}{58}{subsection.13.5.3}%
+\contentsline {subsection}{\numberline {13.5.4}Text analysis}{58}{subsection.13.5.4}%
+\contentsline {subsection}{\numberline {13.5.5}Statistical Power}{58}{subsection.13.5.5}%
+\contentsline {section}{\numberline {13.6}Graduate School}{59}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Life}{59}{section.13.7}%
+\contentsline {chapter}{\numberline {14}Onboarding}{61}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Everyone}{61}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Graduate Students}{61}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Undergraduate (RA and Honors Students)}{61}{section.14.3}%
+\contentsline {chapter}{\numberline {15}Data}{63}{chapter.15}%
+\contentsline {section}{\numberline {15.1}SAPA project website}{63}{section.15.1}%
+\contentsline {subsection}{\numberline {15.1.1}Introduction}{63}{subsection.15.1.1}%
+\contentsline {subsubsection}{\numberline {15.1.1.1}Infrastructure}{63}{subsubsection.15.1.1.1}%
+\contentsline {paragraph}{\numberline {15.1.1.1.1}Admin console}{63}{paragraph.15.1.1.1.1}%
+\contentsline {paragraph}{\numberline {15.1.1.1.2}How to add new administrators / owners}{63}{paragraph.15.1.1.1.2}%
+\contentsline {subsubsection}{\numberline {15.1.1.2}How to connect to database}{63}{subsubsection.15.1.1.2}%
+\contentsline {subsubsection}{\numberline {15.1.1.3}Connecting from R}{64}{subsubsection.15.1.1.3}%
+\contentsline {section}{\numberline {15.2}Ethics}{66}{section.15.2}%
+\contentsline {section}{\numberline {15.3}SAPA Data}{66}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Collecting data}{66}{section.15.4}%
+\contentsline {subsection}{\numberline {15.4.1}Amazon Mechanical Turk}{66}{subsection.15.4.1}%
+\contentsline {subsection}{\numberline {15.4.2}Prolific}{66}{subsection.15.4.2}%
+\contentsline {section}{\numberline {15.5}Storing and Managing}{66}{section.15.5}%
+\contentsline {section}{\numberline {15.6}Codebooks}{66}{section.15.6}%
+\contentsline {section}{\numberline {15.7}Analyzing}{66}{section.15.7}%
+\contentsline {chapter}{\numberline {16}Publications}{67}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Authorship}{67}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Pre-publication checklist}{68}{section.16.2}%
+\contentsline {section}{\numberline {16.3}Preprints and open access}{68}{section.16.3}%
+\contentsline {section}{\numberline {16.4}Where we submit}{68}{section.16.4}%
+\contentsline {chapter}{\numberline {17}Conferences}{69}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Conferences we typically attend}{69}{section.17.1}%
+\contentsline {section}{\numberline {17.2}How/why to give a talk}{69}{section.17.2}%
+\contentsline {chapter}{\numberline {18}Offboarding}{71}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Checklist}{71}{section.18.1}%
+\contentsline {section}{\numberline {18.2}Unfinished projects and intellectual property}{71}{section.18.2}%
+\contentsline {section}{\numberline {18.3}Staying in touch}{71}{section.18.3}%
