@@ -35,6 +35,10 @@ Letters of recommendation are extremely important for getting new positions and 
 
 If you need a letter, notify the ideal letter-writer as soon as possible with the deadline, your CV, and any relevant instructions for the content of the letter. If the letter is for a grant, also include your specific aims. In some cases (especially if short notice is given), you may also be asked to submit a draft of a letter, which will be modified based on our experience with you, made more glamorous, and edited to add anything you left out that we think is important. This will ensure that the letter contains all the information you need, and that it is submitted on time.
 
+## Individual Development Plans (IDPs)
+
+Students will regularly complete/update an IDP. A good template is [myIDP](http://myidp.sciencecareers.org/) but students may use another format. Twice a year, students will receive feedback from the mentors on the skills related to their IDP (i.e., skills needed for careers of interest), with the goal of starting a conversation around planning training goals (short- and long-term).
+
 ## UO Program Requirements
 
 [Doctoral student forms](https://psychology.uoregon.edu/graduate/current-students/doctoral-program/handbooks-student-forms/)

@@ -58,6 +58,7 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 ### GitHub
 
 - [Happy Git with GitHub and R](https://happygitwithr.com/)
+- [Cheatsheet for terminal commands](https://gist.github.com/cferdinandi/ef665330286fd5d7127d)
 
 ### Text Analysis
 
@@ -71,6 +72,10 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 ### Writing functions
 
 - [Non-standard evaluation](http://adv-r.had.co.nz/Computing-on-the-language.html)
+
+### Making tables
+
+- [`gt` package](https://themockup.blog/static/gt-cookbook.html)
 
 ### Reproducibility
 
@@ -92,6 +97,14 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 
 - [CrossRef](https://doi.crossref.org/simpleTextQuery) -- get DOI's quickly
 - [Connected Papers](https://www.connectedpapers.com/) -- find other articles related to a specific research article
+
+### Bibliography
+
+- [Zotero](https://zotero.org)
+- [ZBib](https://zbib.org/)
+
+### Reviewing the literature
+- [Guide from the University of South Australia](https://lo.unisa.edu.au/mod/page/view.php?id=489316)
 
 ### Responding to reviews
 
@@ -117,6 +130,7 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 
 - [Logistic regression is not fucked](http://jakewestfall.org/blog/index.php/2018/03/12/logistic-regression-is-not-fucked/)
 - [Melt the clock: tidy time series analysis](https://slides.earo.me/rstudioconf19/#1)
+- [_Causal Inference: What If_ by Miguel A. Hernán & James M. Robins](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) -- Chapter titles: A defintion of causal effect, Randomized experiments, Observational studies, Effect modification, Interaction, Graphical representation of causal effects, Confounding, Selection bias, Measurement bias, Random variability, Why model, IP weighting and marginal structural models, Standardization and the parametric g-function, G-estimation of structural nested models, Outcome regression and propensity scores, Instrumental variable estimation, Causal survival analysis, Variable selection for causal inference, Time-varying treatments, Treatment-confounder feedback, G-methods for time-varying treatments, Target trial emulation
 
 ### Machine learning+
 
@@ -128,16 +142,30 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 ### Text analysis
 
 - [Structual Topic Models](https://juliasilge.com/blog/evaluating-stm/)
+- [Erin Buchanan (Stats of Doom) NLP](https://statisticsofdoom.com/page/natural-language-processing/)
 
 ### Statistical Power
 
 - [Powering interactions](https://approachingblog.wordpress.com/2018/01/24/powering-your-interaction-2/)
 - [Explore researcher degrees of freedom](https://joachim-gassen.github.io/2019/03/explore-your-researcher-degrees-of-freedom/)
 
+### Structural Equation Modeling
+
+- [Michael Hallquist's SEM course](https://psu-psychology.github.io/psy-597-SEM)
+- [Erin Buchanan (Stats of Doom) SEM](https://statisticsofdoom.com/page/structural-equation-modeling/) 
+
+### Mediation and Moderation
+- [Erin Buchanan (Stats of Doom) Mediation/Moderation](https://statisticsofdoom.com/page/med-mod/)
+
+### Longitudinal data analysis
+- [Personality Development Collaborative](https://www.personalitydevelopmentcollaborative.org/) -- also includes links to datasets that may be useful.
+
+
 ## Graduate School
 
 - [The Illustrated Guide to a Ph.D.](http://matt.might.net/articles/phd-school-in-pictures/)
 - [Raul Pacheco's resources](http://www.raulpacheco.org/resources/) -- a good collection of tips for everything from time management, to how to read and write, to using social media.
+- [Escaping the hamster wheel by Elliot Berkman](https://www.psychologytoday.com/us/blog/the-motivated-brain/201709/advice-grad-students-and-senior-faculty)
 
 ## Life
 

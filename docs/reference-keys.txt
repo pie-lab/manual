@@ -52,6 +52,7 @@ mentorship-of-graduate-students
 pi-mentorship-philosophy
 primary-mentors
 recommendation-letters
+individual-development-plans-idps
 uo-program-requirements
 coursework-required
 timeline
@@ -109,10 +110,13 @@ github-1
 text-analysis
 iteration
 writing-functions
+making-tables
 reproducibility
 writing
 grammar-and-syntax
 finding-articles
+bibliography
+reviewing-the-literature
 responding-to-reviews
 presentations
 authorship
@@ -122,6 +126,9 @@ generalized-linear-model
 machine-learning
 text-analysis-1
 statistical-power
+structural-equation-modeling
+mediation-and-moderation
+longitudinal-data-analysis
 graduate-school
 life
 onboarding
