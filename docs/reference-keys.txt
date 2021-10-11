@@ -91,6 +91,7 @@ requesting-updates
 github
 research-assistants
 joining-the-pie-lab
+lab-logo
 external
 psychology-department
 graduate-training
@@ -131,6 +132,7 @@ mediation-and-moderation
 longitudinal-data-analysis
 graduate-school
 life
+applying-to-graduate-school
 onboarding
 everyone
 graduate-students-2

@@ -30,6 +30,7 @@ Especially useful cheatsheets include:
 - [How to make better spaghetti plots](https://njt-rstudio20.netlify.app/#1)
 - [DiagrammR](http://rich-iannone.github.io/DiagrammeR/index.html) -- flowcharts and diagrams
 - [DAG models](https://ggdag.malco.io/articles/intro-to-dags.html)
+- [Twitter thread of tutorials by \@CedScherer](https://twitter.com/CedScherer/status/1441126976870252548)
 
 ### Markdown
 
@@ -171,3 +172,9 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 
 - Note that being a GE and having a research fellowship are considered different forms of compensation. [Here’s a guide to preparing your (2019) federal taxes](http://pfforphds.com/prepare-grad-student-tax-return/).
 
+- [Diverse careers among applied psychologists](https://docs.google.com/spreadsheets/d/1oYlZ15ZCte8uZvbQLJKegQ6IliJ6QcDuNifmxRusYNQ/edit) -- contact list of psychologists working outside of academia
+
+## Applying to graduate school
+
+* [Psych Research List](http://www.psychresearchlist.com) -- Lists of internships, virtual grad program information sessions, jobs, resources for applying to grad programs, etc.
+* [Application Statement Feedback Program](https://www.asfp.io/applicants) -- A service providing feedback on research statements for those applying to Psychology graduate programs. 

@@ -295,3 +295,12 @@ Use your personal GitHub account to create private repositories for collaboratio
 Undergraduate students hoping to join the PIE lab as research assistants should fill out the [application form](https://forms.gle/9BFNBrPuu7pKLhPWA). This will be checked at the beginning and end of each term. Any PIE lab PI or graduate student hoping to work with undergraduate research assistants must make time to meet with RAs regularly, train them, and provide feedback and guidance. 
 
 There are sometimes funds available to pay for work-study students. Do not hesitate to ask about these, if you are interested in doing research. Please know that it is our strong preference to hire students who otherwise would not have the opportunity to get research experience. 
+
+## Lab logo
+
+Here you can download the lab logo for presentations.
+
+* [EPS file](images/PIElab.eps)
+* [JPEG file](images/PIElab.jpg)
+* [PDF file](images/PIElab.pdf)
+* [PNG file](images/PIElab.png)
