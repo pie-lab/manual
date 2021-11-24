@@ -24,7 +24,7 @@
 <meta name="author" content="DRAFT" />
 
 
-<meta name="date" content="2021-10-11" />
+<meta name="date" content="2021-11-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -59,6 +59,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -347,6 +348,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="17.1" data-path="conf.html"><a href="conf.html#conferences-we-typically-attend"><i class="fa fa-check"></i><b>17.1</b> Conferences we typically attend</a></li>
 <li class="chapter" data-level="17.2" data-path="conf.html"><a href="conf.html#howwhy-to-give-a-talk"><i class="fa fa-check"></i><b>17.2</b> How/why to give a talk</a></li>
+<li class="chapter" data-level="17.3" data-path="conf.html"><a href="conf.html#travel-expenses"><i class="fa fa-check"></i><b>17.3</b> Travel expenses</a>
+<ul>
+<li class="chapter" data-level="17.3.1" data-path="conf.html"><a href="conf.html#conference-fees"><i class="fa fa-check"></i><b>17.3.1</b> Conference fees</a></li>
+<li class="chapter" data-level="17.3.2" data-path="conf.html"><a href="conf.html#flights"><i class="fa fa-check"></i><b>17.3.2</b> Flights</a></li>
+<li class="chapter" data-level="17.3.3" data-path="conf.html"><a href="conf.html#hotels"><i class="fa fa-check"></i><b>17.3.3</b> Hotels</a></li>
+<li class="chapter" data-level="17.3.4" data-path="conf.html"><a href="conf.html#other-expenses"><i class="fa fa-check"></i><b>17.3.4</b> Other expenses</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="18" data-path="off.html"><a href="off.html"><i class="fa fa-check"></i><b>18</b> Offboarding</a>
 <ul>
@@ -410,14 +418,14 @@ of personality.</p>
 <ul>
 <li>Start the <code>cloud_sql_proxy</code>:</li>
 </ul>
-<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="data.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">cloud_sql_proxy</span> -instances=silken-alloy-248920:us-west1:woodworth-pi-improvement-project-1920=tcp:3306</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="data.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">cloud_sql_proxy</span> <span class="at">-instances</span><span class="op">=</span>silken-alloy-248920:us-west1:woodworth-pi-improvement-project-1920=tcp:3306</span></code></pre></div>
 <p>If the command succeeds, you’ll see the following message returned to your shell:</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb22-1"><a href="data.html#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Ready</span> for new connections</span></code></pre></div>
 <p>The Cloud SQL Proxy allows you to make connections to the MySQL database running in Google Cloud as if the database was running locally.</p>
 <ul>
 <li>In a new terminal window, verify the connection:</li>
 </ul>
-<div class="sourceCode" id="cb23"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb23-1"><a href="data.html#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mysql</span> -h 127.0.0.1 -u SAPAreader -p</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb23-1"><a href="data.html#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mysql</span> <span class="at">-h</span> 127.0.0.1 <span class="at">-u</span> SAPAreader <span class="at">-p</span></span></code></pre></div>
 <p>Enter the password when prompted. If the connection is successful, then you’ll see the mysql prompt:</p>
 <div class="sourceCode" id="cb24"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb24-1"><a href="data.html#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mysql</span><span class="op">&gt;</span> </span></code></pre></div>
 </div>

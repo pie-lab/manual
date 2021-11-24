@@ -161,7 +161,12 @@
 \contentsline {chapter}{\numberline {17}Conferences}{71}{chapter.17}%
 \contentsline {section}{\numberline {17.1}Conferences we typically attend}{71}{section.17.1}%
 \contentsline {section}{\numberline {17.2}How/why to give a talk}{71}{section.17.2}%
-\contentsline {chapter}{\numberline {18}Offboarding}{73}{chapter.18}%
-\contentsline {section}{\numberline {18.1}Checklist}{73}{section.18.1}%
-\contentsline {section}{\numberline {18.2}Unfinished projects and intellectual property}{73}{section.18.2}%
-\contentsline {section}{\numberline {18.3}Staying in touch}{73}{section.18.3}%
+\contentsline {section}{\numberline {17.3}Travel expenses}{72}{section.17.3}%
+\contentsline {subsection}{\numberline {17.3.1}Conference fees}{72}{subsection.17.3.1}%
+\contentsline {subsection}{\numberline {17.3.2}Flights}{72}{subsection.17.3.2}%
+\contentsline {subsection}{\numberline {17.3.3}Hotels}{73}{subsection.17.3.3}%
+\contentsline {subsection}{\numberline {17.3.4}Other expenses}{73}{subsection.17.3.4}%
+\contentsline {chapter}{\numberline {18}Offboarding}{75}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Checklist}{75}{section.18.1}%
+\contentsline {section}{\numberline {18.2}Unfinished projects and intellectual property}{75}{section.18.2}%
+\contentsline {section}{\numberline {18.3}Staying in touch}{75}{section.18.3}%

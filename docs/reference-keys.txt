@@ -161,6 +161,11 @@ where-we-submit
 conf
 conferences-we-typically-attend
 howwhy-to-give-a-talk
+travel-expenses
+conference-fees
+flights
+hotels
+other-expenses
 off
 checklist
 unfinished-projects-and-intellectual-property

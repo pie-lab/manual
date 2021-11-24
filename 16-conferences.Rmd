@@ -19,3 +19,27 @@ It is therefore highly encouraged that you seek out opportunities to present you
 Templates for posters will be available, and you can use those as much or as little as you’d like. Some general rules for posters should be followed: minimize text as much as possible (if you wrote a paragraph, you’re doing it wrong), make figures and text large and easy to see at a distance, label your axes, and make sure different colors are easily to discriminate. Other than that, go with your own style.
 
   * Here's a great set of templates for posters, as well as a philosophy for thinking about them: [Butter Poster](https://derekcrowe.net/butterposter) 
+  
+## Travel expenses
+
+For any conference expenses that are covered by the lab or the department, you'll need to work with our front office staff to book or reimburse. Here's a general breakdown:
+
+### Conference fees
+
+These should be paid using the department P-card. If it's possible to send an invoice for conference fees, send those to Alison Helzer (ahelzer@uoregon.edu). Or, you can give Alison your log-in information, and she can pay the conference fee on your behalf.
+
+### Flights
+
+Flights should be booked through the Concur system. Before this can happen, you'll need to submit an initial travel request.
+
+See [the department wiki](https://psywiki.uoregon.edu/index.php?title=Psychology/Travel_Policies_and_Procedures) for information on how to submit a travel request (to Alison Helzer) and how to book flights.
+
+### Hotels
+
+Hotels can either be booked through Concur, or you can use a personal credit card and submit the folio for reimbursement via a Concur expense report. 
+
+### Other expenses
+
+This includes parking, taxi/Uber/Lift fees, meals, and other incidentals. Keep you receipts and submit for reimbursement after the conference.
+
+
