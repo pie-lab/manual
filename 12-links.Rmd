@@ -161,6 +161,18 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 ### Longitudinal data analysis
 - [Personality Development Collaborative](https://www.personalitydevelopmentcollaborative.org/) -- also includes links to datasets that may be useful.
 
+### Item response theory
+* [Edwards (2009) – An Introduction to Item Response Theory Using the Need for Cognition Scale](articles/edwards-2009.pdf)
+  * I would recommend starting with this article. The journal is aimed at graduate student seminars, so it will be more targeted to general understanding and application among psychologists, rather than to quantitative psychologists. This covers the two-parameter model and the graded response model.
+* [da Rocha et al. (2013) – An introduction to Rasch analysis for Psychiatric practice and research](articles/daRocha-etal-2013.pdf)
+  * This one will be similar to the Edwards article in terms of being aimed at a more general audience. This article will cover a third type of IRT model: the Rasch model.
+[Cook et al. (2005) – Dynamic Assessment of Health Outcomes: Time to Let the CAT Out of the Bag?](articles/cook-etal-2005.pdf)
+  * This is less about the practice of IRT itself but more an intro into some of the potential broader application, especially in medical and educational settings.
+* [mirt vignette](articles/mirt-vignette.pdf)
+  * This will walk through how to use the mirt package in R. I believe mirt can do all three types of models described above.
+* Check out the [6-video series by Karon Cook](https://www.youtube.com/watch?v=SrdbllMYq8M).
+
+
 
 ## Graduate School
 
@@ -178,3 +190,5 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 
 * [Psych Research List](http://www.psychresearchlist.com) -- Lists of internships, virtual grad program information sessions, jobs, resources for applying to grad programs, etc.
 * [Application Statement Feedback Program](https://www.asfp.io/applicants) -- A service providing feedback on research statements for those applying to Psychology graduate programs. 
+* Writing up your experiences on a resume (H/T: [Jin Goh](https://twitter.com/JinXunGoh/status/1501246061188427782))
+![](images/businessese.png)
