@@ -12,9 +12,10 @@
 
 Sara and David joined the University of Oregon in January 2019, which is when the Personality Is Everywhere Lab was formed. Following the inaugural pi day celebration on March 14, 2019, the lab underwent light renovations during the summer of 2019. We hosted a number of personality researchers during the fall of 2019 (Johanna Hartung, Pat Hill, Colin DeYoung, Dustin Wood) and our first real interview weekend in February of 2020. The lab was fully closed from March to August 2020 in the wake of the COVID-19 pandemic. 
 
-And then...
+In September 2020, we welcomed our first cohort of graduate students: Kendall Mather, Sarah McDougald, Ian Shryock, and Dillon Welindt!
 
-## Required reading
+
+## Things we've been reading
 
 ### Papers by the PIE lab
 
