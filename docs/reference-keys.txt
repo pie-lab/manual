@@ -38,7 +38,6 @@ github
 lab-logo
 resources
 technology
-useful-links
 r-and-rmarkdown
 beginners
 cheatsheets

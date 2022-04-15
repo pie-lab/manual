@@ -1,4 +1,4 @@
-# Useful Links
+# Tutorials and Links
 
 ## R and RMarkdown
 
@@ -76,12 +76,239 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 
 ### Making tables
 
+- [Awesome tables with kable (PDF)](https://haozhu233.github.io/kableExtra/awesome_table_in_pdf.pdf)
+- [Awesome tables with kable (HTML)](http://haozhu233.github.io/kableExtra/awesome_table_in_html.html)
 - [`gt` package](https://themockup.blog/static/gt-cookbook.html)
+- The [`tableby` package](https://cran.r-project.org/web/packages/arsenal/vignettes/tableby.html) is excellent for descriptive statistics, as it can calculate central tendency/variability for continuous variables and counts for categorical variables and integrate them into a single table. If you want descriptives by group (e.g., a treatment/control or by gender), it will also calculate those and statistical tests ($t$ and $\chi^s$ both!).
+- The [`modelsummary` package](https://vincentarelbundock.github.io/modelsummary/articles/modelsummary.html) seems very useful and customizable. May also work with all outputs from Markdown and Quarto, unlike sjPlot.
 
 ### Reproducibility
 
 - [8 things to make research more findable](http://datacolada.org/69)
+- Ensure that the correct versions of packages are loaded using the [`groundhog` package](http://datacolada.org/100).
 
+
+### US Census API
+
+This is a short tutorial on using the US Census API in word. 
+
+You'll need the following:
+ * an API key. You can request one at [https://api.census.gov/data/key_signup.html](https://api.census.gov/data/key_signup.html). 
+  * the R package `censusapi`
+  
+Your key is used to access the API when working in R. It's not recommended that you share your key with anyone, nor is anyone allowed to use your key to access the API. For that reason, we recommend creating an R script (`census-api-key.R`) inside your project folder that assigns your key to an object. This script only needs to contain a single line of code:
+
+
+```r
+census_key = "Your Key Here"
+```
+
+Do not share this script with anyone. If using GitHub, add the path to this script to the .gitignore file. You can see the .gitignore for this project as an example.
+
+To use the API, load the `censusapi` package and source the key script. Then add the key to your R environment.
+
+
+```r
+library(censusapi)
+source("census-api-key.R")
+Sys.setenv(CENSUS_KEY=census_key)
+```
+
+There are many datasets in the API. You can see them by running the code:
+
+
+```r
+apis <- listCensusApis()
+```
+
+You can `View()` this object to sort through the datsets. The set of datasets most useful for linking with SAPA data are those from the American Community Survey, especially the 5-year surveys. Look for datasets with `acs` in the name or `acs5` for the 5-year files specifically. If there are surveys in multiple years, you'll need to know which year (vintage) you would like data from.
+
+You can see the variables available in a survey using the `listCensusMetadata` function.
+
+
+```r
+vars = listCensusMetadata(
+  name = "acs/acs5",
+  vintage = 2019,
+  type = "variables"
+)
+head(vars)
+```
+
+<table class="table" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> name </th>
+   <th style="text-align:left;"> label </th>
+   <th style="text-align:left;"> concept </th>
+   <th style="text-align:left;"> predicateType </th>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:left;"> limit </th>
+   <th style="text-align:left;"> attributes </th>
+   <th style="text-align:left;"> hasGeoCollectionSupport </th>
+   <th style="text-align:left;"> required </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> B24022_060E </td>
+   <td style="text-align:left;"> Estimate!!Total:!!Female:!!Service occupations:!!Food preparation and serving related occupations </td>
+   <td style="text-align:left;"> SEX BY OCCUPATION AND MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) FOR THE FULL-TIME, YEAR-ROUND CIVILIAN EMPLOYED POPULATION 16 YEARS AND OVER </td>
+   <td style="text-align:left;"> int </td>
+   <td style="text-align:left;"> B24022 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> B24022_060EA,B24022_060M,B24022_060MA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B19001B_014E </td>
+   <td style="text-align:left;"> Estimate!!Total:!!$100,000 to $124,999 </td>
+   <td style="text-align:left;"> HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER) </td>
+   <td style="text-align:left;"> int </td>
+   <td style="text-align:left;"> B19001B </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> B19001B_014EA,B19001B_014M,B19001B_014MA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B07007PR_019E </td>
+   <td style="text-align:left;"> Estimate!!Total:!!Moved from different municipio:!!Foreign born:!!Naturalized U.S. citizen </td>
+   <td style="text-align:left;"> GEOGRAPHICAL MOBILITY IN THE PAST YEAR BY CITIZENSHIP STATUS FOR CURRENT RESIDENCE IN PUERTO RICO </td>
+   <td style="text-align:left;"> int </td>
+   <td style="text-align:left;"> B07007PR </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> B07007PR_019EA,B07007PR_019M,B07007PR_019MA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B19101A_004E </td>
+   <td style="text-align:left;"> Estimate!!Total:!!$15,000 to $19,999 </td>
+   <td style="text-align:left;"> FAMILY INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) (WHITE ALONE HOUSEHOLDER) </td>
+   <td style="text-align:left;"> int </td>
+   <td style="text-align:left;"> B19101A </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> B19101A_004EA,B19101A_004M,B19101A_004MA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B24022_061E </td>
+   <td style="text-align:left;"> Estimate!!Total:!!Female:!!Service occupations:!!Building and grounds cleaning and maintenance occupations </td>
+   <td style="text-align:left;"> SEX BY OCCUPATION AND MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) FOR THE FULL-TIME, YEAR-ROUND CIVILIAN EMPLOYED POPULATION 16 YEARS AND OVER </td>
+   <td style="text-align:left;"> int </td>
+   <td style="text-align:left;"> B24022 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> B24022_061EA,B24022_061M,B24022_061MA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B19001B_013E </td>
+   <td style="text-align:left;"> Estimate!!Total:!!$75,000 to $99,999 </td>
+   <td style="text-align:left;"> HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER) </td>
+   <td style="text-align:left;"> int </td>
+   <td style="text-align:left;"> B19001B </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> B19001B_013EA,B19001B_013M,B19001B_013MA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+
+You'll also need to know the geography you're collecting from. You can see the available geographies with similar code:
+
+
+```r
+geo = listCensusMetadata(
+  name = "acs/acs5",
+  vintage = 2019,
+  type = "geography"
+)
+head(geo)
+```
+
+<table class="table" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> name </th>
+   <th style="text-align:left;"> geoLevelDisplay </th>
+   <th style="text-align:left;"> referenceDate </th>
+   <th style="text-align:left;"> requires </th>
+   <th style="text-align:left;"> wildcard </th>
+   <th style="text-align:left;"> optionalWithWCFor </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> us </td>
+   <td style="text-align:left;"> 010 </td>
+   <td style="text-align:left;"> 2019-01-01 </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> region </td>
+   <td style="text-align:left;"> 020 </td>
+   <td style="text-align:left;"> 2019-01-01 </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> division </td>
+   <td style="text-align:left;"> 030 </td>
+   <td style="text-align:left;"> 2019-01-01 </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> state </td>
+   <td style="text-align:left;"> 040 </td>
+   <td style="text-align:left;"> 2019-01-01 </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NULL </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> county </td>
+   <td style="text-align:left;"> 050 </td>
+   <td style="text-align:left;"> 2019-01-01 </td>
+   <td style="text-align:left;"> state </td>
+   <td style="text-align:left;"> state </td>
+   <td style="text-align:left;"> state </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> county subdivision </td>
+   <td style="text-align:left;"> 060 </td>
+   <td style="text-align:left;"> 2019-01-01 </td>
+   <td style="text-align:left;"> state , county </td>
+   <td style="text-align:left;"> county </td>
+   <td style="text-align:left;"> county </td>
+  </tr>
+</tbody>
+</table>
+
+To match with SAPA data, you'll want to use the ZCTA or zip code tabulation area geography. Then use the `getCensus` function to import data using the API. For example, if I wanted to extract the total number of households and people in each ZCTA to match with SAPA, I would use the following:
+
+
+```r
+uscensus <- getCensus(
+    name = "acs/acs5/profile",
+    vars = c("NAME", 
+             "DP02_0001E",  # number of households
+             "DP05_0001E"  # number of persons
+             ), 
+    region = "zip code tabulation area", regionin = "state:*",
+    vintage = 2019)
+```
+
+See more in the `censusapi` [vignette](https://cran.r-project.org/web/packages/censusapi/vignettes/getting-started.html).
 
 ## Writing
 
