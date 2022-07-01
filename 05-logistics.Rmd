@@ -1,5 +1,9 @@
 # Logistics{#logistics}
 
+## Psych IT{#psychit}
+
+Need help with hardware or software? Send a ticket to the Psych IT gurus using the [UO Service Portal](https://service.uoregon.edu/TDClient/2030/Portal/Requests/ServiceCatalog?CategoryID=18258).
+
 ## Getting locked out
 If you lock your keys in the lab or your office during business hours, Cindy Salmon in the front office may be able to let you into the space. After business hours, a UOPD officer can let you in. To contact them, call (541) 346-2919.
 
