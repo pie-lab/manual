@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 8 SAPA project website | PIE Lab Manual</title>
   <meta name="description" content="Resources, standard operating procedures, tips, tricks, rules" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 8 SAPA project website | PIE Lab Manual" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://pielab-science.com" />
   <meta property="og:image" content="https://pielab-science.com/images/PIElab5.png" />
   <meta property="og:description" content="Resources, standard operating procedures, tips, tricks, rules" />
   <meta name="github-repo" content="pie-lab/manual" />
@@ -24,7 +23,7 @@
 <meta name="author" content="DRAFT" />
 
 
-<meta name="date" content="2022-04-15" />
+<meta name="date" content="2022-07-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="codeofconduct.html"/>
 <link rel="next" href="events.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +49,9 @@
 
 
 
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
@@ -358,6 +357,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="17.3.3" data-path="conf.html"><a href="conf.html#hotels"><i class="fa fa-check"></i><b>17.3.3</b> Hotels</a></li>
 <li class="chapter" data-level="17.3.4" data-path="conf.html"><a href="conf.html#other-expenses"><i class="fa fa-check"></i><b>17.3.4</b> Other expenses</a></li>
 </ul></li>
+<li class="chapter" data-level="17.4" data-path="conf.html"><a href="conf.html#poster-printing"><i class="fa fa-check"></i><b>17.4</b> Poster printing</a></li>
 </ul></li>
 <li class="chapter" data-level="18" data-path="off.html"><a href="off.html"><i class="fa fa-check"></i><b>18</b> Offboarding</a>
 <ul>
@@ -385,26 +385,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sapa-project-website" class="section level1" number="8">
-<h1><span class="header-section-number">Chapter 8</span> SAPA project website</h1>
-<div id="introduction" class="section level2" number="8.1">
-<h2><span class="header-section-number">8.1</span> Introduction</h2>
+<div id="sapa-project-website" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">Chapter 8</span> SAPA project website<a href="sapa-project-website.html#sapa-project-website" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Introduction<a href="sapa-project-website.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The <a href="https://sapa-project.org/">SAPA Project</a> hosts surveys that explore different dimensions
 of personality.</p>
-<div id="infrastructure" class="section level3" number="8.1.1">
-<h3><span class="header-section-number">8.1.1</span> Infrastructure</h3>
+<div id="infrastructure" class="section level3 hasAnchor" number="8.1.1">
+<h3><span class="header-section-number">8.1.1</span> Infrastructure<a href="sapa-project-website.html#infrastructure" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The SAPA Project is hosted on <a href="https://cloud.google.com/">Google Cloud</a>. There is one active compute engine virtual machine (VM) instance, and one backup or staging instance. The VM instances run an <a href="http://httpd.apache.org/docs/2.4/">Apache/2.4.25 web server</a> on Debian 9 (stretch) Linux based operating system that hosts the actual SAPA Project website. Each time a user completes a survey, the survey results are stored in a MySQL database, which is running on a Google Cloud SQL instance running <a href="https://dev.mysql.com/doc/refman/5.7/en/">MySQL 5.7</a>.</p>
-<div id="admin-console" class="section level4" number="8.1.1.1">
-<h4><span class="header-section-number">8.1.1.1</span> Admin console</h4>
+<div id="admin-console" class="section level4 hasAnchor" number="8.1.1.1">
+<h4><span class="header-section-number">8.1.1.1</span> Admin console<a href="sapa-project-website.html#admin-console" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Admin console for the computing infrastructure is available at <a href="https://console.cloud.google.com">https://console.cloud.google.com</a>.</p>
 </div>
-<div id="how-to-add-new-administrators-owners" class="section level4" number="8.1.1.2">
-<h4><span class="header-section-number">8.1.1.2</span> How to add new administrators / owners</h4>
+<div id="how-to-add-new-administrators-owners" class="section level4 hasAnchor" number="8.1.1.2">
+<h4><span class="header-section-number">8.1.1.2</span> How to add new administrators / owners<a href="sapa-project-website.html#how-to-add-new-administrators-owners" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Add a new user from the <a href="https://console.cloud.google.com/iam-admin/iam?project=silken-alloy-248920">IAM &amp; Admin</a> admin console page.</p>
 </div>
 </div>
-<div id="how-to-connect-to-database" class="section level3" number="8.1.2">
-<h3><span class="header-section-number">8.1.2</span> How to connect to database</h3>
+<div id="how-to-connect-to-database" class="section level3 hasAnchor" number="8.1.2">
+<h3><span class="header-section-number">8.1.2</span> How to connect to database<a href="sapa-project-website.html#how-to-connect-to-database" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>First time users:</em></p>
 <ol style="list-style-type: decimal">
 <li>Download and install the <a href="https://cloud.google.com/sdk/docs/downloads-interactive">Google Cloud SDK</a></li>
@@ -430,8 +430,8 @@ of personality.</p>
 <p>Enter the password when prompted. If the connection is successful, then you’ll see the mysql prompt:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="sapa-project-website.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mysql</span><span class="op">&gt;</span> </span></code></pre></div>
 </div>
-<div id="connecting-from-r" class="section level3" number="8.1.3">
-<h3><span class="header-section-number">8.1.3</span> Connecting from R</h3>
+<div id="connecting-from-r" class="section level3 hasAnchor" number="8.1.3">
+<h3><span class="header-section-number">8.1.3</span> Connecting from R<a href="sapa-project-website.html#connecting-from-r" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Following the instructions here: <a href="https://cloud.google.com/blog/products/gcp/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql" class="uri">https://cloud.google.com/blog/products/gcp/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql</a></p>
 <p>It is helpful to create a function that creates the connection to the MySQL database:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="sapa-project-website.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RMySQL)</span>
@@ -467,7 +467,6 @@ of personality.</p>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -508,7 +507,7 @@ gitbook.start({
 },
 "download": ["pielab-manual.pdf", "pielab-manual.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {

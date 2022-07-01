@@ -167,6 +167,7 @@
 \contentsline {subsection}{\numberline {17.3.2}Flights}{76}{subsection.17.3.2}%
 \contentsline {subsection}{\numberline {17.3.3}Hotels}{77}{subsection.17.3.3}%
 \contentsline {subsection}{\numberline {17.3.4}Other expenses}{77}{subsection.17.3.4}%
+\contentsline {section}{\numberline {17.4}Poster printing}{77}{section.17.4}%
 \contentsline {chapter}{\numberline {18}Offboarding}{79}{chapter.18}%
 \contentsline {section}{\numberline {18.1}Checklist}{79}{section.18.1}%
 \contentsline {section}{\numberline {18.2}Unfinished projects and intellectual property}{79}{section.18.2}%

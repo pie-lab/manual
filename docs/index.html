@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>PIE Lab Manual</title>
   <meta name="description" content="Resources, standard operating procedures, tips, tricks, rules" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="PIE Lab Manual" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://pielab-science.com" />
   <meta property="og:image" content="https://pielab-science.com/images/PIElab5.png" />
   <meta property="og:description" content="Resources, standard operating procedures, tips, tricks, rules" />
   <meta name="github-repo" content="pie-lab/manual" />
@@ -24,7 +23,7 @@
 <meta name="author" content="DRAFT" />
 
 
-<meta name="date" content="2022-04-15" />
+<meta name="date" content="2022-07-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 
 <link rel="next" href="welcome.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +49,9 @@
 
 
 
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
@@ -358,6 +357,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="17.3.3" data-path="conf.html"><a href="conf.html#hotels"><i class="fa fa-check"></i><b>17.3.3</b> Hotels</a></li>
 <li class="chapter" data-level="17.3.4" data-path="conf.html"><a href="conf.html#other-expenses"><i class="fa fa-check"></i><b>17.3.4</b> Other expenses</a></li>
 </ul></li>
+<li class="chapter" data-level="17.4" data-path="conf.html"><a href="conf.html#poster-printing"><i class="fa fa-check"></i><b>17.4</b> Poster printing</a></li>
 </ul></li>
 <li class="chapter" data-level="18" data-path="off.html"><a href="off.html"><i class="fa fa-check"></i><b>18</b> Offboarding</a>
 <ul>
@@ -388,13 +388,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="header">
 <h1 class="title">PIE Lab Manual</h1>
 <p class="author"><em>DRAFT</em></p>
-<p class="date"><em>2022-04-15</em></p>
+<p class="date"><em>2022-07-01</em></p>
 </div>
 <div id="section" class="section level1 unnumbered">
 <h1 class="unnumbered"></h1>
 <p><img src="images/PIElab5.png" /></p>
-<div id="updating-the-manual" class="section level2" number="0.1">
-<h2><span class="header-section-number">0.1</span> Updating the manual</h2>
+<div id="updating-the-manual" class="section level2 hasAnchor" number="0.1">
+<h2><span class="header-section-number">0.1</span> Updating the manual<a href="index.html#updating-the-manual" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>To request additions or edits to the lab manual, please submit a new <a href="https://github.com/pie-lab/manual/issues">issue</a>.</p>
 
 </div>
@@ -409,7 +409,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -450,7 +449,7 @@ gitbook.start({
 },
 "download": ["pielab-manual.pdf", "pielab-manual.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
