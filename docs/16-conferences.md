@@ -46,13 +46,13 @@ This includes parking, taxi/Uber/Lift fees, meals, and other incidentals. Keep y
 
 Posters can be printed through the college of design in the output room on the second floor of Lawrence Hall from 9am to 3pm, M-F. Here are some instructions for printing. All of this information is [available online](https://designtech.uoregon.edu/eugene-output-room/poster-printing/) but some details might be difficult to find.
 
-1.  **Check the document size.** Make sure the dimensions are set to the size at which you intend to print the poster (they recommend against scaling up a smaller document).
+1.  **Check the document size.** Make sure the dimensions are set to the size at which you intend to print the poster (they recommend against scaling up a smaller document). _It's best to do this step before you make the poster in PowerPoint!_
 
 2.  **Convert the document to the correct PDF format.** On the website, they specify the PDF/X-4 format but in person they have previously asked for PDF/X-3, so it might be worth saving the document using each version and asking which they prefer when you go to release the print in person.
 
     a.  Separate instructions for using windows or mac to convert a Powerpoint slide to one of these specific PDF file types [can be found here](https://designtech.uoregon.edu/eugene-output-room/formatting-large-format-documents-for-print/#Large-Format_Printing_Saving_As_PDFX).
     
-    b.  Note that the instructions ask you to use Adobe Acrobat to convert the Powerpoint slide to the correct file type. If you do not have adobe acrobat installed, you can use one of the computers in 280 Lawrence Hall ([see this page for some more tips on printing Powerpoint posters](https://designtech.uoregon.edu/eugene-output-room/formatting-large-format-documents-for-print/#Large-Format_Printing_Saving_As_PDFX)).
+    b.  Note that the instructions ask you to use Adobe Acrobat to convert the Powerpoint slide to the correct file type. If you do not have Adobe Acrobat installed, you can use one of the computers in 280 Lawrence Hall ([see this page for some more tips on printing Powerpoint posters](https://designtech.uoregon.edu/eugene-output-room/formatting-large-format-documents-for-print/#Large-Format_Printing_Saving_As_PDFX)).
     
     c. If you don't currently have the right Adobe software on your laptop, you can download it for free from UO. You will need to submit a ticket to [UO Psych IT](https://service.uoregon.edu/TDClient/2030/Portal/Requests/ServiceCatalog?CategoryID=18258) requesting they send an installation package.
 
@@ -61,6 +61,7 @@ Posters can be printed through the college of design in the output room on the s
     1.  Connect to the AAA-PRINT server (aaafileserver.uoregon.edu). Instructions for connecting on Windows or Mac are available on [this page under step 2.](https://designtech.uoregon.edu/eugene-output-room/submitting-jobs-for-print/)
 
     2.  Copy your file into the folder on AAA-PRINT named for the paper type you plan on using (most likely standard matte or satin, but premium and custom options are also available).
+    
 4.  **Go to the output room on the second floor of Lawrence Hall and release the print.**
 
     a.  Make sure you have the necessary funds in your account (you'll be asked to pay using your UO ID card, but see alternative payment options [here](https://designtech.uoregon.edu/eugene-output-room/using-the-output-room/)). Students can add Duck Bucks by logging into DuckWeb, clicking "Student menu", and then "QuikPAY Student Account". Faculty and Staff should click "Employee information", and then "Make electronic payments on UO bill" ([more information on adding Duck Bucks here](https://emu.uoregon.edu/duck-bucks/online-services)).
