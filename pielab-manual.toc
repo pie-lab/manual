@@ -23,10 +23,11 @@
 \contentsline {section}{\numberline {4.3}Response time}{20}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Phone}{20}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Logistics}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Getting locked out}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Being in the lab}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Holidays and vacations}{22}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Remote working}{22}{section.5.4}%
+\contentsline {section}{\numberline {5.1}Psych IT}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Getting locked out}{21}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Being in the lab}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Holidays and vacations}{22}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Remote working}{22}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Day-to-day Information}{23}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Pet Policy}{23}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Sickness policy}{23}{section.6.2}%

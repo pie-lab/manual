@@ -23,6 +23,7 @@ email
 response-time
 phone
 logistics
+psychit
 getting-locked-out
 being-in-the-lab
 holidays-and-vacations
@@ -172,5 +173,3 @@ off
 checklist
 unfinished-projects-and-intellectual-property
 staying-in-touch
-psychit
-applying-to-graduate-school
