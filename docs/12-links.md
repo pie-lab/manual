@@ -61,6 +61,10 @@ OR, you can install the `citr` package, which works with your Zotero library, so
 - [Happy Git with GitHub and R](https://happygitwithr.com/)
 - [Cheatsheet for terminal commands](https://gist.github.com/cferdinandi/ef665330286fd5d7127d)
 
+### Downloading direct from source
+
+- [Downloading surveys into R directly from Qualtrics](https://cran.r-project.org/web/packages/qualtRics/vignettes/qualtRics.html).
+
 ### Text Analysis
 
 - [Text mining Twitter with TidyText](https://www.earthdatascience.org/courses/earth-analytics/get-data-using-apis/text-mining-twitter-data-intro-r/) -- includes n-gram network plot
