@@ -109,6 +109,7 @@ data-visualization
 markdown
 using-zotero-with-rmarkdown
 github-1
+downloading-direct-from-source
 text-analysis
 iteration
 writing-functions
@@ -121,6 +122,8 @@ finding-articles
 bibliography
 reviewing-the-literature
 responding-to-reviews
+survey-building
+qualtrics
 presentations
 authorship
 statistics
@@ -173,4 +176,3 @@ off
 checklist
 unfinished-projects-and-intellectual-property
 staying-in-touch
-downloading-direct-from-source

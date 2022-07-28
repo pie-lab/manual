@@ -109,32 +109,35 @@
 \contentsline {subsection}{\numberline {13.1.4}Markdown}{58}{subsection.13.1.4}%
 \contentsline {subsection}{\numberline {13.1.5}Using Zotero with RMarkdown}{58}{subsection.13.1.5}%
 \contentsline {subsection}{\numberline {13.1.6}GitHub}{59}{subsection.13.1.6}%
-\contentsline {subsection}{\numberline {13.1.7}Text Analysis}{59}{subsection.13.1.7}%
-\contentsline {subsection}{\numberline {13.1.8}Iteration}{59}{subsection.13.1.8}%
-\contentsline {subsection}{\numberline {13.1.9}Writing functions}{59}{subsection.13.1.9}%
-\contentsline {subsection}{\numberline {13.1.10}Making tables}{59}{subsection.13.1.10}%
-\contentsline {subsection}{\numberline {13.1.11}Reproducibility}{59}{subsection.13.1.11}%
-\contentsline {subsection}{\numberline {13.1.12}US Census API}{60}{subsection.13.1.12}%
+\contentsline {subsection}{\numberline {13.1.7}Downloading direct from source}{59}{subsection.13.1.7}%
+\contentsline {subsection}{\numberline {13.1.8}Text Analysis}{59}{subsection.13.1.8}%
+\contentsline {subsection}{\numberline {13.1.9}Iteration}{59}{subsection.13.1.9}%
+\contentsline {subsection}{\numberline {13.1.10}Writing functions}{59}{subsection.13.1.10}%
+\contentsline {subsection}{\numberline {13.1.11}Making tables}{59}{subsection.13.1.11}%
+\contentsline {subsection}{\numberline {13.1.12}Reproducibility}{59}{subsection.13.1.12}%
+\contentsline {subsection}{\numberline {13.1.13}US Census API}{60}{subsection.13.1.13}%
 \contentsline {section}{\numberline {13.2}Writing}{62}{section.13.2}%
 \contentsline {subsection}{\numberline {13.2.1}Grammar and syntax}{62}{subsection.13.2.1}%
 \contentsline {subsection}{\numberline {13.2.2}Finding articles}{62}{subsection.13.2.2}%
 \contentsline {subsection}{\numberline {13.2.3}Bibliography}{62}{subsection.13.2.3}%
 \contentsline {subsection}{\numberline {13.2.4}Reviewing the literature}{62}{subsection.13.2.4}%
 \contentsline {subsection}{\numberline {13.2.5}Responding to reviews}{62}{subsection.13.2.5}%
-\contentsline {section}{\numberline {13.3}Presentations}{62}{section.13.3}%
-\contentsline {section}{\numberline {13.4}Authorship}{63}{section.13.4}%
-\contentsline {section}{\numberline {13.5}Statistics}{63}{section.13.5}%
-\contentsline {subsection}{\numberline {13.5.1}Probability}{63}{subsection.13.5.1}%
-\contentsline {subsection}{\numberline {13.5.2}Generalized Linear Model}{63}{subsection.13.5.2}%
-\contentsline {subsection}{\numberline {13.5.3}Machine learning+}{63}{subsection.13.5.3}%
-\contentsline {subsection}{\numberline {13.5.4}Text analysis}{63}{subsection.13.5.4}%
-\contentsline {subsection}{\numberline {13.5.5}Statistical Power}{64}{subsection.13.5.5}%
-\contentsline {subsection}{\numberline {13.5.6}Structural Equation Modeling}{64}{subsection.13.5.6}%
-\contentsline {subsection}{\numberline {13.5.7}Mediation and Moderation}{64}{subsection.13.5.7}%
-\contentsline {subsection}{\numberline {13.5.8}Longitudinal data analysis}{64}{subsection.13.5.8}%
-\contentsline {subsection}{\numberline {13.5.9}Item response theory}{64}{subsection.13.5.9}%
-\contentsline {section}{\numberline {13.6}Graduate School}{65}{section.13.6}%
-\contentsline {section}{\numberline {13.7}Life}{65}{section.13.7}%
+\contentsline {section}{\numberline {13.3}Survey Building}{62}{section.13.3}%
+\contentsline {subsection}{\numberline {13.3.1}Qualtrics}{62}{subsection.13.3.1}%
+\contentsline {section}{\numberline {13.4}Presentations}{63}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Authorship}{63}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Statistics}{63}{section.13.6}%
+\contentsline {subsection}{\numberline {13.6.1}Probability}{63}{subsection.13.6.1}%
+\contentsline {subsection}{\numberline {13.6.2}Generalized Linear Model}{63}{subsection.13.6.2}%
+\contentsline {subsection}{\numberline {13.6.3}Machine learning+}{64}{subsection.13.6.3}%
+\contentsline {subsection}{\numberline {13.6.4}Text analysis}{64}{subsection.13.6.4}%
+\contentsline {subsection}{\numberline {13.6.5}Statistical Power}{64}{subsection.13.6.5}%
+\contentsline {subsection}{\numberline {13.6.6}Structural Equation Modeling}{64}{subsection.13.6.6}%
+\contentsline {subsection}{\numberline {13.6.7}Mediation and Moderation}{64}{subsection.13.6.7}%
+\contentsline {subsection}{\numberline {13.6.8}Longitudinal data analysis}{64}{subsection.13.6.8}%
+\contentsline {subsection}{\numberline {13.6.9}Item response theory}{64}{subsection.13.6.9}%
+\contentsline {section}{\numberline {13.7}Graduate School}{65}{section.13.7}%
+\contentsline {section}{\numberline {13.8}Life}{65}{section.13.8}%
 \contentsline {chapter}{\numberline {14}Onboarding}{67}{chapter.14}%
 \contentsline {section}{\numberline {14.1}Everyone}{67}{section.14.1}%
 \contentsline {section}{\numberline {14.2}Graduate Students}{67}{section.14.2}%

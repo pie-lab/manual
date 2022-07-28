@@ -204,6 +204,19 @@ See more in the `censusapi` [vignette](https://cran.r-project.org/web/packages/c
 
 - [Workflow for R&R](https://getsyeducated.blogspot.com/2020/08/a-workflow-for-dealing-with-dread-of.html)
 
+## Survey Building
+
+### Qualtrics
+
+- Did you create a matrix but wish they were separate questions? [Turn on the Carousel presentation.](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/matrix-table/#Carousel)
+
+- If you're using a screener, you can set up a [Contact List Trigger](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/contact-list-triggers/).
+
+- Building a daily diary or ESM study? These may be helpful:
+  - [Automated email distribution of Qualtrics surveys](https://community.qualtrics.com/XMcommunity/discussion/1827/automated-email-distribution-of-daily-diary-survey) (specific to daily diary)
+  - [Use Contact List Triggers to update embedded data](https://community.qualtrics.com/XMcommunity/discussion/977/does-qualtrics-support-running-morning-afternoon-diary-studies) (e.g.,  how many times someone has taken the survey, etc)
+  - See [this article by Cui and colleagues](docs/articles/qualtrics-ema.pdf).
+
 ## Presentations
 
 - [Public speaking for academics](https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fd8wm9%2Fdownload)
