@@ -23,6 +23,7 @@ email
 response-time
 phone
 logistics
+lab-contact-information
 psychit
 getting-locked-out
 being-in-the-lab

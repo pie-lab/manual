@@ -1,5 +1,15 @@
 # Logistics{#logistics}
 
+## Lab contact information
+
+Email address: [pielab@uoregon.edu](mailto:pielab@uoregon.edu)
+
+  * _Please check in with David or Sara to receive access to the inbox for this email address._
+
+Phone number: (541) 346-6117
+
+  * If you would like to make an outgoing call from this phone, be sure to dial 91 and then the 10-digit phone number (area code + 7-digit number). 
+
 ## Psych IT{#psychit}
 
 Need help with hardware or software? Send a ticket to the Psych IT gurus using the [UO Service Portal](https://service.uoregon.edu/TDClient/2030/Portal/Requests/ServiceCatalog?CategoryID=18258).
