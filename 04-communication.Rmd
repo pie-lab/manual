@@ -1,17 +1,15 @@
 # Communication{#communication}
 
-**(as of 2020!)**
 
 ## Slack
 
 Slack provides an efficient way to send messages out to the group, share documents, and solicit help or tips. When posting messages or looking for updates, check the appropriate channel: 
 
-- #general for lab announcements
-- #lab-meetings for notes or communication related to lab meetings
-- #papers for sharing links to lab-relevant papers and discussing them
-- #code-tips for sharing wisdom on code writing or asking (and answering) the coding questions of others
-- #stats to ask and answer questions about statistical analyses 
-- #team-building for non-work-related chatting that is best kept out of the work-related channels.
+- `#general` for lab announcements
+- `#goodreads` for sharing links to lab-relevant papers and discussing them
+- `#jobs-careers` for relevant job annoucements or information related to careers more broadly
+- `#office-space` for claiming use of the annex
+- `#random` for non-work-related chatting that is best kept out of the work-related channels.
 
 For specific projects, create or join a closed channel for that project and use that channel to communicate about details. Try to keep each channel on topic, so that people can subscribe only to the channels that concern them. For messages to one person or a small group, use direct messages. If it’s an emergency and we (Sara or David) are not responding on Slack, e-mail them.
 

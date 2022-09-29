@@ -31,6 +31,3 @@ Take them. Planning time off is really important. . Communicate with us when you
 
 Before winter and summer break, meet with Sara or David to discuss your work goals and expectations around communication. 
 
-## Remote working
-
-As of writing this, most of our work will be largely remote for the foreseeable future. Please keep in mind that “showing up” still holds when working remotely. If you need any resources to help you be productive from home, please let us know. We may be able to lend you some materials, or we might be able to purchase materials for the lab to lend to you. 

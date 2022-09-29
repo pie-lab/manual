@@ -148,12 +148,49 @@ head(vars)
    <th style="text-align:left;"> predicateType </th>
    <th style="text-align:left;"> group </th>
    <th style="text-align:left;"> limit </th>
-   <th style="text-align:left;"> attributes </th>
+   <th style="text-align:left;"> predicateOnly </th>
    <th style="text-align:left;"> hasGeoCollectionSupport </th>
+   <th style="text-align:left;"> attributes </th>
    <th style="text-align:left;"> required </th>
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> for </td>
+   <td style="text-align:left;"> Census API FIPS 'for' clause </td>
+   <td style="text-align:left;"> Census API Geography Specification </td>
+   <td style="text-align:left;"> fips-for </td>
+   <td style="text-align:left;"> N/A </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> in </td>
+   <td style="text-align:left;"> Census API FIPS 'in' clause </td>
+   <td style="text-align:left;"> Census API Geography Specification </td>
+   <td style="text-align:left;"> fips-in </td>
+   <td style="text-align:left;"> N/A </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ucgid </td>
+   <td style="text-align:left;"> Uniform Census Geography Identifier clause </td>
+   <td style="text-align:left;"> Census API Geography Specification </td>
+   <td style="text-align:left;"> ucgid </td>
+   <td style="text-align:left;"> N/A </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> B24022_060E </td>
    <td style="text-align:left;"> Estimate!!Total:!!Female:!!Service occupations:!!Food preparation and serving related occupations </td>
@@ -161,8 +198,9 @@ head(vars)
    <td style="text-align:left;"> int </td>
    <td style="text-align:left;"> B24022 </td>
    <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> B24022_060EA,B24022_060M,B24022_060MA </td>
    <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> B24022_060EA,B24022_060M,B24022_060MA </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
@@ -172,8 +210,9 @@ head(vars)
    <td style="text-align:left;"> int </td>
    <td style="text-align:left;"> B19001B </td>
    <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> B19001B_014EA,B19001B_014M,B19001B_014MA </td>
    <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> B19001B_014EA,B19001B_014M,B19001B_014MA </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
@@ -183,41 +222,9 @@ head(vars)
    <td style="text-align:left;"> int </td>
    <td style="text-align:left;"> B07007PR </td>
    <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
    <td style="text-align:left;"> B07007PR_019EA,B07007PR_019M,B07007PR_019MA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> B19101A_004E </td>
-   <td style="text-align:left;"> Estimate!!Total:!!$15,000 to $19,999 </td>
-   <td style="text-align:left;"> FAMILY INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) (WHITE ALONE HOUSEHOLDER) </td>
-   <td style="text-align:left;"> int </td>
-   <td style="text-align:left;"> B19101A </td>
-   <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> B19101A_004EA,B19101A_004M,B19101A_004MA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> B24022_061E </td>
-   <td style="text-align:left;"> Estimate!!Total:!!Female:!!Service occupations:!!Building and grounds cleaning and maintenance occupations </td>
-   <td style="text-align:left;"> SEX BY OCCUPATION AND MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) FOR THE FULL-TIME, YEAR-ROUND CIVILIAN EMPLOYED POPULATION 16 YEARS AND OVER </td>
-   <td style="text-align:left;"> int </td>
-   <td style="text-align:left;"> B24022 </td>
-   <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> B24022_061EA,B24022_061M,B24022_061MA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> B19001B_013E </td>
-   <td style="text-align:left;"> Estimate!!Total:!!$75,000 to $99,999 </td>
-   <td style="text-align:left;"> HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER) </td>
-   <td style="text-align:left;"> int </td>
-   <td style="text-align:left;"> B19001B </td>
-   <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> B19001B_013EA,B19001B_013M,B19001B_013MA </td>
-   <td style="text-align:left;"> NA </td>
    <td style="text-align:left;"> NA </td>
   </tr>
 </tbody>
