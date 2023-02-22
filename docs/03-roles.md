@@ -22,6 +22,10 @@ Research interests: health behaviors and outcomes, personality development
 
 **Dillon Welindt**
 
+**Rachel Jacobson**
+
+**Amala Someshwar**
+
 **Andrew Castillo**
 
 <!-- ### Undergraduate honors students -->
@@ -127,7 +131,7 @@ Remember that the goal of coursework differs from the goals you had as an underg
 
 **Be collaborative, not competitive** with the other students in our lab. Science is better when people work together, not tear each other down. Respect your fellow lab-mates. They have strengths and weaknesses that they bring to the table -- you can help them, and they can help you. Respect their culture, their religion, their beliefs, their sexual orientation, their perspective on the world. See every way they differ from you as an opportunity to learn and make your science better. Support your fellow lab-mates. Help them out, even if you’re not a co-author on their project. Allow them to vent if they need it and create space for them if they need it. Help them, and you can expect help in return when you need it. Learn to view the wins of your fellow lab-mates as wins for the PIE lab. 
 
-**Time Management** is critical to success in research, not just as a graduate student, and in life more generally. We (Sara and David) will try to share strategies for time management during lab meetings, but you should feel welcome to ask for these discussions in individual meetings or lab meetings whenever they would be helpful. However, your time is your responsibility. We will neither create schedules for you nor will we tell you what to prioritize, although we may give you feedback when we believe a project is not moving along as quickly as it should. Ultimately, you are the one responsible for moving your program of research along. 
+**Time Management** is critical to success in research, not just as a graduate student, and in life more generally. We (Sara and David) will try to share strategies for time management during lab meetings, but you should feel welcome to ask for these discussions in individual meetings or lab meetings whenever they would be helpful. However, your time is your responsibility. We will neither create schedules for you nor will we tell you what to prioritize, although we may give you feedback when we believe a project is not moving along as quickly as it should. It will be up to you to decide when you work and what you work on. A good starting place is to think of your graduate work as a full time job: 40 hours/week. That being said, you may find that you are able to keep up with coursework and teaching duties while also moving research along in less time -- that's great! Also, you may find yourself working more than 40 hours and not experiencing any issues -- that's great too! The main thing is that you are able to meet your responsibilities, conduct your research, and maintain good mental health.  
 
 **Curiosity** helps you develop your research program, integrate advances in methods and ideas into your work, and provide meaningful contributions in your collaborations and to the field. Be sure to consider the role of curiosity in your research. Resist the temptation to look smart with answers and instead ask questions. Approach every situation you’re in with the goal of learning something new. 
 
